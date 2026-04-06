@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/imgBookCover"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:background="#DDDDDD"
+        android:layout_marginEnd="15dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtKitapAdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kitap Adı"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"/>
+
+        <TextView
+            android:id="@+id/txtYazarAdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yazar Adı"
+            android:textSize="14sp"
+            android:textColor="#7F8C8D"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/txtDetaylar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kategori"
+            android:textSize="12sp"
+            android:textColor="#95A5A6"
+            android:layout_marginTop="4dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:id="@+id/txtDurum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Durum"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#34495E"/>
+
+            <TextView
+                android:id="@+id/txtIadeTarihi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tarih"
+                android:textSize="12sp"
+                android:textColor="#E74C3C"
+                android:layout_marginStart="8dp"
+                android:visibility="gone"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <RatingBar
+            android:id="@+id/ratingBarPuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:isIndicator="true"
+            style="?android:attr/ratingBarStyleSmall"
+            android:rating="0"/>
+
+        <TextView
+            android:id="@+id/txtPuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:textSize="11sp"
+            android:textColor="#F1C40F"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

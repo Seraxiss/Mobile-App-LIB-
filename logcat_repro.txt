@@ -1,0 +1,554 @@
+--------- beginning of main
+03-15 14:29:17.298 I/VRI[MainActivity]@da02908( 1328): performConfigurationChange setNightDimText nightDimLevel=0
+03-15 14:29:17.299 D/VRI[MainActivity]@da02908( 1328): mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007070bcce00} hwInitialized=true
+03-15 14:29:17.301 D/VRI[MainActivity]@da02908( 1328): reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+03-15 14:29:17.301 D/VRI[MainActivity]@da02908( 1328): Setup new sync=wmsSync-VRI[MainActivity]@da02908#4
+03-15 14:29:17.301 I/VRI[MainActivity]@da02908( 1328): Creating new active sync group VRI[MainActivity]@da02908#5
+03-15 14:29:17.301 D/VRI[MainActivity]@da02908( 1328): registerCallbacksForSync syncBuffer=false
+03-15 14:29:17.303 D/VRI[MainActivity]@da02908( 1328): Received frameDrawingCallback syncResult=0 frameNum=1.
+03-15 14:29:17.304 I/VRI[MainActivity]@da02908( 1328): mWNT: t=0xb400007070c5e300 mBlastBufferQueue=0xb4000070d807c800 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15441 android.view.ThreadedRenderer$1.onFrameDraw:718 <bottom of call stack> 
+03-15 14:29:17.304 I/VRI[MainActivity]@da02908( 1328): Setting up sync and frameCommitCallback
+03-15 14:29:17.304 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{3c1eb49 NavigationBar0#28500 parentId=34150} 1 children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=3c1eb49 NavigationBar0)/@0x13224f6 - animation-leash of insets_animation#34150 parentId=28499} 1 children}
+03-15 14:29:17.304 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{2aa07a4 StatusBar#28507 parentId=34149} 1 children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=2aa07a4 StatusBar)/@0x2227e1b - animation-leash of insets_animation#34149 parentId=28506} 1 children}
+03-15 14:29:17.304 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{Surface(name=3c1eb49 NavigationBar0)/@0x13224f6 - animation-leash of insets_animation#34141} no children}] reparent to OffscreenRoot
+03-15 14:29:17.304 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{Surface(name=3c1eb49 NavigationBar0)/@0x13224f6 - animation-leash of insets_animation#34141} no children}] RelativeParent to null
+03-15 14:29:17.304 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{Surface(name=2aa07a4 StatusBar)/@0x2227e1b - animation-leash of insets_animation#34140} no children}] reparent to OffscreenRoot
+03-15 14:29:17.304 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{Surface(name=2aa07a4 StatusBar)/@0x2227e1b - animation-leash of insets_animation#34140} no children}] RelativeParent to null
+03-15 14:29:17.304 I/SurfaceFlinger( 1567): [Surface(name=2aa07a4 StatusBar)/@0x2227e1b - animation-leash of insets_animation#34149] attach to parent LayerHierarchy{RequestedLayerState{WindowToken{df48736 type=2000 android.os.BinderProxy@5f2a3f8}#28506 parentId=28426} 1 children}
+03-15 14:29:17.304 I/SurfaceFlinger( 1567): [Surface(name=3c1eb49 NavigationBar0)/@0x13224f6 - animation-leash of insets_animation#34150] attach to parent LayerHierarchy{RequestedLayerState{WindowToken{b67d50 type=2019 android.os.BinderProxy@b916202}#28499 parentId=28443} 1 children}
+03-15 14:29:17.306 D/SurfaceFlinger( 1567): [input] setFocusedWindow: cb14707 com.example.kutuphane/com.example.kutuphane.MainActivity
+03-15 14:29:17.306 D/SurfaceFlinger( 1567): updateWinowInfo=1, setFocusedWindow timestamp=118915593937163, windowName=cb14707 com.example.kutuphane/com.example.kutuphane.MainActivity
+03-15 14:29:17.307 D/InputDispatcher(12320): Once focus requested (0): cb14707 com.example.kutuphane/com.example.kutuphane.MainActivity
+03-15 14:29:17.307 D/InputDispatcher(12320): Focus request (0): cb14707 com.example.kutuphane/com.example.kutuphane.MainActivity but waiting because NOT_VISIBLE
+03-15 14:29:17.310 I/BLASTBufferQueue( 1328): [VRI[MainActivity]@da02908#2](f:0,a:0,s:0) onFrameAvailable the first frame is available
+03-15 14:29:17.311 I/BLASTBufferQueue( 1328): [VRI[MainActivity]@da02908#2](f:0,a:1,s:0) acquireNextBufferLocked size=1080x2340 mFrameNumber=1 applyTransaction=true mTimestamp=118915608389548(auto) mPendingTransactions.size=0 graphicBufferId=5703716569096 transform=0
+03-15 14:29:17.311 I/VRI[MainActivity]@da02908( 1328): Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+03-15 14:29:17.312 D/HWUI    ( 1328): CFMS:: SetUp Pid : 1328    Tid : 1360
+03-15 14:29:17.312 D/VRI[MainActivity]@da02908( 1328): reportDrawFinished seqId=0
+--------- beginning of system
+03-15 14:29:17.313 D/WindowManager(12320): finishDrawingWindow: Window{cb14707 u0 com.example.kutuphane/com.example.kutuphane.MainActivity} mDrawState=DRAW_PENDING seqId=0
+03-15 14:29:17.313 I/ImeFocusController( 1328): onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+03-15 14:29:17.313 I/ImeFocusController( 1328): onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+03-15 14:29:17.313 I/InsetsSourceConsumer( 1328): applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.example.kutuphane/com.example.kutuphane.MainActivity
+03-15 14:29:17.314 I/InsetsSourceConsumer( 1328): applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.example.kutuphane/com.example.kutuphane.MainActivity
+03-15 14:29:17.314 V/WindowManager(12320): SyncGroup 436: Finished!
+03-15 14:29:17.314 I/SemDvfsHyPerManager(12320): acquire hyper - AMS_RESUME_TAIL/12320@16, type = -999
+03-15 14:29:17.314 I/SurfaceFlinger( 1567): onHandleDestroyed: layerId=34140, name=Surface(name=2aa07a4 StatusBar)/@0x2227e1b - animation-leash of insets_animation#34140
+03-15 14:29:17.314 I/SurfaceFlinger( 1567): id=34140 Removed Surface(name=2aa07a4 StatusBar)/@0x2227e1b - animation-leash of insets_animation#34140 (210)
+03-15 14:29:17.314 I/HYPER-HAL(12099): [RequestManager.cpp]acquire(): Acquired ID : 76094632  [12320 / 16]    HINT : AMS_RESUME_TAIL    list : 
+03-15 14:29:17.315 I/SurfaceFlinger( 1567): onHandleDestroyed: layerId=34141, name=Surface(name=3c1eb49 NavigationBar0)/@0x13224f6 - animation-leash of insets_animation#34141
+03-15 14:29:17.315 I/SurfaceFlinger( 1567): id=34141 Removed Surface(name=3c1eb49 NavigationBar0)/@0x13224f6 - animation-leash of insets_animation#34141 (210)
+03-15 14:29:17.315 I/SemDvfsHyPerManager(12320): acquire hyper - AMS_ACT_LAZY/12320@17, type = -999
+03-15 14:29:17.315 D/ActivityManagerPerformance(12320): AMP_acquire() TAIL
+03-15 14:29:17.315 D/ActivityManagerPerformance(12320): AMP_release() ACT_START
+03-15 14:29:17.315 V/WindowManager(12320): performShowLocked: mDrawState=HAS_DRAWN in Window{cb14707 u0 com.example.kutuphane/com.example.kutuphane.MainActivity}
+03-15 14:29:17.315 I/mtkpower_client(12099): perf_lock_rel, hdl:14132, pid: 12099, tid:12116
+03-15 14:29:17.315 I/SurfaceFlinger( 1567): destroyed Surface(name=3c1eb49 NavigationBar0)/@0x13224f6 - animation-leash of insets_animation#34141
+03-15 14:29:17.315 I/SurfaceFlinger( 1567): destroyed Surface(name=2aa07a4 StatusBar)/@0x2227e1b - animation-leash of insets_animation#34140
+03-15 14:29:17.315 D/ChangeTransitionController(12320): onTransactionReady: TransitionRecord{b2b9670 id=436 type=OPEN flags=0x0 c=[
+03-15 14:29:17.315 D/ChangeTransitionController(12320):    ChangeInfo{99e0b1e container=ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621} flags=0x0}
+03-15 14:29:17.315 D/ChangeTransitionController(12320):    ChangeInfo{5ccefa5 container=DefaultTaskDisplayArea_d0@21689571 flags=0x0}
+03-15 14:29:17.315 D/ChangeTransitionController(12320):    ChangeInfo{7e47f7a container=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621} flags=0x0}
+03-15 14:29:17.315 D/ChangeTransitionController(12320):    ChangeInfo{d7da32b container=Display{#0 state=ON size=1080x2340 ROTATION_0} flags=0x0}
+03-15 14:29:17.315 D/ChangeTransitionController(12320):    ChangeInfo{477c388 container=Task{ed8ed02 #621 type=standard A=10286:com.example.kutuphane} flags=0x0}
+03-15 14:29:17.315 D/ChangeTransitionController(12320): ]
+03-15 14:29:17.315 D/ChangeTransitionController(12320): }
+03-15 14:29:17.315 V/WindowManager(12320): Start calculating TransitionInfo based on participants: {ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621}, ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}}
+03-15 14:29:17.315 V/WindowManager(12320):   Final targets: [ChangeInfo{7e47f7a container=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621} flags=0x0}, ChangeInfo{99e0b1e container=ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621} flags=0x0}]
+03-15 14:29:17.315 I/mtkpower_client(12099): perf_lock_acq, hdl:0, dur:0, num:2, pid:12099, tid:12116
+03-15 14:29:17.316 I/Layer   ( 1567): id=34141 Destroyed Surface(name=3c1eb49 NavigationBar0)/@0x13224f6 - animation-leash of insets_animation#34141
+03-15 14:29:17.316 I/libPowerHal( 1520): [perfLockRel] hdl:14132, idx:1
+03-15 14:29:17.316 I/Layer   ( 1567): id=34140 Destroyed Surface(name=2aa07a4 StatusBar)/@0x2227e1b - animation-leash of insets_animation#34140
+03-15 14:29:17.316 I/libPowerHal( 1520): [set_cpuidle] enable:1, fd:17, scn:0xb4000078fe804178
+03-15 14:29:17.316 I/libPowerHal( 1520): [PD] vendor.samsung. update cmd:1c3c100 param:1 pr:6
+03-15 14:29:17.316 I/libPowerHal( 1520): [perfLockRel] Done for hdl : 14132
+03-15 14:29:17.316 I/libPowerHal( 1520): [perfLockAcq] idx:3 hdl:14134 hint:-1 pid:12099 tid:12116 duration:0 lock_user:vendor.samsung. => ret_hdl:14134
+03-15 14:29:17.316 I/libPowerHal( 1520): [set_cpuidle] enable:0, fd:17, scn:0xb4000078fe80a868
+03-15 14:29:17.316 I/libPowerHal( 1520): [get_cpu_dma_latency_value] 0
+03-15 14:29:17.316 I/libPowerHal( 1520): [PE] vendor.samsung. update cmd:1c3c100 param:0 pr:3
+03-15 14:29:17.316 I/libPowerHal( 1520): [perfLockAcq] Done for hdl : 14134
+03-15 14:29:17.317 I/mtkpower_client(12099): ret_hdl:14134
+03-15 14:29:17.317 I/SurfaceFlinger( 1567): id=34151 createSurf, flag=84004, Transition Root: ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34151
+03-15 14:29:17.317 I/mtkpower_client(12099): perf_lock_rel, hdl:14133, pid: 12099, tid:12116
+03-15 14:29:17.317 I/mtkpower_client(12099): perf_lock_acq, hdl:0, dur:0, num:2, pid:12099, tid:12116
+03-15 14:29:17.317 I/libPowerHal( 1520): [perfLockRel] hdl:14133, idx:4
+03-15 14:29:17.318 I/libPowerHal( 1520): [PD] vendor.samsung. update cmd:1000000 param:-1 pr:6
+03-15 14:29:17.318 I/libPowerHal( 1520): [perfLockRel] Done for hdl : 14133
+03-15 14:29:17.318 I/SurfaceControlRegistry(12320): show, t=StartTransaction_SyncId<436> sc=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}, caller=android.view.SurfaceControl$Transaction.show:3557 com.android.server.wm.Transition.onTransactionReady:2048 com.android.server.wm.BLASTSyncEngine$SyncGroup.finishNow:240 com.android.server.wm.BLASTSyncEngine.onSurfacePlacement:263 com.android.server.wm.RootWindowContainer.performSurfacePlacementNoTrace:1083 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:166 
+03-15 14:29:17.319 V/WindowManager(12320): Calling onTransitionReady: {id=436 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+03-15 14:29:17.319 V/WindowManager(12320):         {m=OPEN f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0x6e20fff sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.example.kutuphane/.MainActivity opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) dim=true taskIdForActivity=621},
+03-15 14:29:17.319 V/WindowManager(12320):         {m=TO_BACK f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621})/@0x1f87b14 sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 bc=fffafafa component=com.example.kutuphane/.goster opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) taskIdForActivity=621}
+03-15 14:29:17.319 V/WindowManager(12320):     ]}
+03-15 14:29:17.319 I/mtkpower_client(12099): ret_hdl:14135
+03-15 14:29:17.320 I/libPowerHal( 1520): [perfLockAcq] idx:1 hdl:14135 hint:-1 pid:12099 tid:12116 duration:0 lock_user:vendor.samsung. => ret_hdl:14135
+03-15 14:29:17.320 V/WindowManagerShell(12757): onTransitionReady(transaction=52913997117056)
+03-15 14:29:17.320 I/libPowerHal( 1520): [setDvfsrcDevFreqOpp] opp:0, freq:4266000000
+03-15 14:29:17.320 I/libPowerHal( 1520): [PE] vendor.samsung. update cmd:1000000 param:0 pr:3
+03-15 14:29:17.320 I/libPowerHal( 1520): [perfLockAcq] Done for hdl : 14135
+03-15 14:29:17.320 I/mtkpower_client(12099): perf_lock_rel, hdl:14134, pid: 12099, tid:12116
+03-15 14:29:17.320 V/WindowManagerShell(12757): onTransitionReady (#436) android.os.BinderProxy@efe5b42: {id=436 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+03-15 14:29:17.320 V/WindowManagerShell(12757):         {m=OPEN f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.example.kutuphane/.MainActivity opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) dim=true taskIdForActivity=621},
+03-15 14:29:17.320 V/WindowManagerShell(12757):         {m=TO_BACK f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621})/@0x41ae98e sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 bc=fffafafa component=com.example.kutuphane/.goster opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) taskIdForActivity=621}
+03-15 14:29:17.320 V/WindowManagerShell(12757):     ]}
+03-15 14:29:17.320 V/ShellDesktopMode(12757): DesktopModeLogger: taskInfo map after processing changes 0
+03-15 14:29:17.320 I/ActivityTaskManager(12320): Displayed com.example.kutuphane/.MainActivity for user 0: +96ms
+03-15 14:29:17.320 I/Pageboost(12320): Launch time gathered : pid 1328 com.example.kutuphane 96
+03-15 14:29:17.320 I/SurfaceControlRegistry(12757): hide, t=FinishTransaction_SyncId<436> sc=ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621}, caller=android.view.SurfaceControl$Transaction.hide:3583 com.android.wm.shell.transition.Transitions.dispatchReady:1263 com.android.wm.shell.transition.Transitions.onTransitionReady:251 com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0.run:13 android.os.Handler.handleCallback:995 android.os.Handler.dispatchMessage:103 
+03-15 14:29:17.320 I/SurfaceControlRegistry(12757): show, t=StartTransaction_SyncId<436> sc=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}, caller=android.view.SurfaceControl$Transaction.show:3557 com.android.wm.shell.transition.Transitions.dispatchReady:1279 com.android.wm.shell.transition.Transitions.onTransitionReady:251 com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0.run:13 android.os.Handler.handleCallback:995 android.os.Handler.dispatchMessage:103 
+03-15 14:29:17.320 I/mtkpower_client(12099): perf_lock_acq, hdl:0, dur:0, num:2, pid:12099, tid:12116
+03-15 14:29:17.321 I/SurfaceControlRegistry(12757): show, t=FinishTransaction_SyncId<436> sc=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}, caller=android.view.SurfaceControl$Transaction.show:3557 com.android.wm.shell.transition.Transitions.dispatchReady:1330 com.android.wm.shell.transition.Transitions.onTransitionReady:251 com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0.run:13 android.os.Handler.handleCallback:995 android.os.Handler.dispatchMessage:103 
+03-15 14:29:17.321 I/libPowerHal( 1520): [perfLockRel] hdl:14134, idx:3
+03-15 14:29:17.321 E/pageboostd( 3568): Received HALT command code 2
+03-15 14:29:17.321 V/WindowManagerShell(12757): Playing animation for (#436) android.os.BinderProxy@efe5b42@0
+03-15 14:29:17.321 I/libPowerHal( 1520): [set_cpuidle] enable:1, fd:17, scn:0xb4000078fe80a868
+03-15 14:29:17.321 I/SurfaceControlRegistry(12757): show, t=StartTransaction_SyncId<436> sc=Transition Root: ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}, caller=android.view.SurfaceControl$Transaction.show:3557 com.android.wm.shell.transition.Transitions.playTransition:79 com.android.wm.shell.transition.Transitions.processReadyQueue:239 com.android.wm.shell.transition.Transitions.dispatchReady:1352 com.android.wm.shell.transition.Transitions.onTransitionReady:251 com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0.run:13 
+03-15 14:29:17.321 I/libPowerHal( 1520): [PD] vendor.samsung. update cmd:1c3c100 param:1 pr:6
+03-15 14:29:17.321 V/ShellRecents(12757): RecentsTransitionHandler.startAnimation: no controller found
+03-15 14:29:17.321 I/libPowerHal( 1520): [perfLockRel] Done for hdl : 14134
+03-15 14:29:17.321 V/ShellDesktopMode(12757): DesktopMixedTransitionHandler: No pending desktop transition
+03-15 14:29:17.321 V/WindowManagerShell(12757): Transition doesn't have explicit remote, search filters for match for {id=436 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.example.kutuphane/.MainActivity opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) dim=true taskIdForActivity=621},{m=TO_BACK f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621})/@0x41ae98e sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 bc=fffafafa component=com.example.kutuphane/.goster opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) taskIdForActivity=621}]}
+03-15 14:29:17.321 V/WindowManagerShell(12757):  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.sec.android.app.launcher/com.sec.android.app.launcher.Launcher} launchCookie=null windowingMode=undefined},{atype=recents independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d71411a, appThread = android.app.IApplicationThread$Stub$Proxy@f2ad44b, debugName = QuickstepLaunchHomeFromRecentsflags =NONE }}
+03-15 14:29:17.321 V/WindowManagerShell(12757):  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.sec.android.app.launcher/com.sec.android.app.launcher.Launcher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@78edc0c, appThread = android.app.IApplicationThread$Stub$Proxy@c278955, debugName = QuickstepLaunchHomeflags =NONE }}
+03-15 14:29:17.321 V/WindowManagerShell(12757):  Delegate animation for (#436) to null
+03-15 14:29:17.321 I/mtkpower_client(12099): ret_hdl:14136
+03-15 14:29:17.321 I/libPowerHal( 1520): [perfLockAcq] idx:3 hdl:14136 hint:-1 pid:12099 tid:12116 duration:0 lock_user:vendor.samsung. => ret_hdl:14136
+03-15 14:29:17.321 I/libPowerHal( 1520): [set_cpuidle] enable:0, fd:17, scn:0xb4000078fe80a868
+03-15 14:29:17.321 I/libPowerHal( 1520): [get_cpu_dma_latency_value] 0
+03-15 14:29:17.321 I/libPowerHal( 1520): [PE] vendor.samsung. update cmd:1c3c100 param:0 pr:3
+03-15 14:29:17.321 I/libPowerHal( 1520): [perfLockAcq] Done for hdl : 14136
+03-15 14:29:17.321 I/mtkpower_client(12099): perf_lock_rel, hdl:14135, pid: 12099, tid:12116
+03-15 14:29:17.322 V/WindowManagerShell(12757): start default transition animation, info = {id=436 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.example.kutuphane/.MainActivity opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) dim=true taskIdForActivity=621},{m=TO_BACK f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621})/@0x41ae98e sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 bc=fffafafa component=com.example.kutuphane/.goster opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) taskIdForActivity=621}]}
+03-15 14:29:17.322 I/ActivityTaskManager(12320): done cause=notifyTransitionStarting drawn timestamp=118915617339625 info=TransitionInfo{1920c15 a=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621} d=true}
+03-15 14:29:17.322 I/mtkpower_client(12099): perf_lock_acq, hdl:0, dur:0, num:2, pid:12099, tid:12116
+03-15 14:29:17.322 I/libPowerHal( 1520): [perfLockRel] hdl:14135, idx:1
+03-15 14:29:17.322 V/WindowManagerShell(12757): loadAnimation: anim=android.view.animation.AnimationSet@360109a animAttr=0x5 type=OPEN isEntrance=false
+03-15 14:29:17.322 V/WindowManagerShell(12757):    wallpaperTransit=WALLPAPER_NONE translucent=false
+03-15 14:29:17.322 I/libPowerHal( 1520): [PD] vendor.samsung. update cmd:1000000 param:-1 pr:6
+03-15 14:29:17.323 V/WindowManagerShell(12757):    change={m=TO_BACK f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621})/@0x41ae98e sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 bc=fffafafa component=com.example.kutuphane/.goster opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) taskIdForActivity=621}
+03-15 14:29:17.323 V/WindowManager(12320): Sent Transition (#436) createdAt=03-15 14:29:17.224 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=621 effectiveUid=10286 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10100000 cmp=com.example.kutuphane/.MainActivity } baseActivity=ComponentInfo{com.example.kutuphane/com.example.kutuphane.goster} topActivity=ComponentInfo{com.example.kutuphane/com.example.kutuphane.MainActivity} origActivity=null realActivity=ComponentInfo{com.example.kutuphane/com.example.kutuphane.MainActivity} numActivities=2 lastActiveTime=243443256 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 maxWidth=-1 maxHeight=-1 defaultMinSize=220 desktopDefaultMinSize=304 token=WCT{RemoteToken{282fd10 Task{ed8ed02 #621 type=standard A=10286:com.example.kutuphane}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{81bbb2a com.example.kutuphane.MainActivity} launchCookies=[android.os.BinderProxy@351ad1b] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(81, 605 - 999, 1775) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 80 - 1080, 2301) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive} topActivityBounds=null topActivityInDisplayCompat=false singleTapFromLetterbox=false} topActivityMainWindowFrame=null originallySupportedMultiWindow=true hasWallpaper=false rootAffinity=10286:com.example.kutuphane isTopTaskInStage=false CoverLauncherWidgetTask=false LaunchedFromAppsCoverLauncherTask=false LaunchedFromMultistarCoverLauncherTask=false isAllowedSeamlessRotation=false isTopTransparentActivity=false isAliasManaged=false hasConfigChanged=false snappingGuideBounds=null isAiKeyRemoveAppTask=false lastDesktopWindowingBounds=null lastExternalDesktopWindowingBounds=null safeCutoutInsets=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 436 }
+03-15 14:29:17.323 I/libPowerHal( 1520): [perfLockRel] Done for hdl : 14135
+03-15 14:29:17.323 V/WindowManager(12320):     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+03-15 14:29:17.323 I/mtkpower_client(12099): ret_hdl:14137
+03-15 14:29:17.323 I/libPowerHal( 1520): [perfLockAcq] idx:4 hdl:14137 hint:-1 pid:12099 tid:12116 duration:0 lock_user:vendor.samsung. => ret_hdl:14137
+03-15 14:29:17.323 V/WindowManagerShell(12757): loadAnimation: anim=android.view.animation.AnimationSet@5b389a8 animAttr=0x4 type=OPEN isEntrance=true
+03-15 14:29:17.323 V/WindowManager(12320):     info={id=436 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+03-15 14:29:17.323 V/WindowManager(12320):         {m=OPEN f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0x6e20fff sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.example.kutuphane/.MainActivity opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) dim=true taskIdForActivity=621},
+03-15 14:29:17.323 V/WindowManager(12320):         {m=TO_BACK f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621})/@0x1f87b14 sb=Rect(0, 0 - 1080, 2340) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=0 bc=fffafafa component=com.example.kutuphane/.goster opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) taskIdForActivity=621}
+03-15 14:29:17.323 V/WindowManager(12320):     ]}
+03-15 14:29:17.323 V/WindowManagerShell(12757):    wallpaperTransit=WALLPAPER_NONE translucent=false
+03-15 14:29:17.323 I/libPowerHal( 1520): [setDvfsrcDevFreqOpp] opp:0, freq:4266000000
+03-15 14:29:17.323 I/libPowerHal( 1520): [PE] vendor.samsung. update cmd:1000000 param:0 pr:3
+03-15 14:29:17.323 V/WindowManagerShell(12757):    change={m=OPEN f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.example.kutuphane/.MainActivity opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) dim=true taskIdForActivity=621}
+03-15 14:29:17.323 I/libPowerHal( 1520): [perfLockAcq] Done for hdl : 14137
+03-15 14:29:17.323 I/HYPER-HAL(12099): [RequestManager.cpp]releaseLocked(): Released ID : 76069959
+03-15 14:29:17.325 I/mtkpower@impl( 1520): [setMode] type:5, enabled:0
+03-15 14:29:17.325 I/SurfaceFlinger( 1567): id=34152 createSurf, flag=20004, DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152
+03-15 14:29:17.326 I/SurfaceControlRegistry(12757): show, t=StartTransaction_SyncId<436> sc=DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589, caller=android.view.SurfaceControl$Transaction.show:3557 com.android.wm.shell.transition.DefaultTransitionHandler.startAnimation:2837 com.android.wm.shell.transition.Transitions.dispatchTransition:90 com.android.wm.shell.transition.Transitions.playTransition:774 com.android.wm.shell.transition.Transitions.processReadyQueue:239 com.android.wm.shell.transition.Transitions.dispatchReady:1352 
+03-15 14:29:17.326 V/WindowManagerShell(12757): attach dim transition, change={m=OPEN f=FILLS_TASK|IS_ACTIVITY leash=Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2340) epz=Point(1080, 2340) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.example.kutuphane/.MainActivity opt={t=FROM_STYLE mUserId=0} inset=Rect(0, 0 - 0, 0) dim=true taskIdForActivity=621}
+03-15 14:29:17.326 I/SurfaceFlinger( 1567): id=34153 createSurf, flag=84000, eb2d0b3 ActivityRecordInputSink com.example.kutuphane/.MainActivity#34153
+03-15 14:29:17.327 I/SurfaceControlRegistry(12757): apply, t=StartTransaction_SyncId<436>, caller=android.view.SurfaceControl$Transaction.apply:3459 android.view.SurfaceControl$Transaction.apply:3447 android.view.SurfaceControl$Transaction.apply:3397 com.android.wm.shell.transition.DefaultTransitionHandler.startAnimation:3292 com.android.wm.shell.transition.Transitions.dispatchTransition:90 com.android.wm.shell.transition.Transitions.playTransition:774 
+03-15 14:29:17.328 V/WindowManagerShell(12757):  animated by com.android.wm.shell.transition.DefaultTransitionHandler@6f0cbd8
+03-15 14:29:17.331 D/SemWifiUsabilityStatsMonitor(12320): onWifiUsabilityStats - seqNum 1693, isSameBssidAndFreq true
+03-15 14:29:17.337 I/SurfaceFlinger( 1567): RequestedLayer [ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34146] hidden!! flag  from(1) --> to(0)
+03-15 14:29:17.337 E/SurfaceFlinger( 1567): alpha changed 1.000 -> 0.000 - ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34146
+03-15 14:29:17.337 I/SurfaceFlinger( 1567): RequestedLayer [cb14707 com.example.kutuphane/com.example.kutuphane.MainActivity#34147] hidden!! flag  from(1) --> to(0)
+03-15 14:29:17.337 I/SurfaceFlinger( 1567): RequestedLayer [com.example.kutuphane/com.example.kutuphane.MainActivity$_1328#34148] hidden!! flag  from(1) --> to(0)
+03-15 14:29:17.337 I/SurfaceFlinger( 1567): RequestedLayer [Transition Root: ActivityRecord{6746[...].kutuphane/.MainActivity t621}#34151] hidden!! flag  from(1) --> to(0)
+03-15 14:29:17.337 I/SurfaceFlinger( 1567): RequestedLayer [DimTransitionLayer for Surface(name=[...]MainActivity t621})/@0xb192589#34152] hidden!! flag  from(1) --> to(0)
+03-15 14:29:17.337 E/SurfaceFlinger( 1567): alpha changed 1.000 -> 0.000 - DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152
+03-15 14:29:17.337 E/SurfaceFlinger( 1567): alpha changed 0.000 -> 1.000 - ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34146
+03-15 14:29:17.337 E/SurfaceFlinger( 1567): alpha changed 0.000 -> 0.000 - DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152
+03-15 14:29:17.337 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621}#34046 parentId=34151 z=2} 3 children}] reparent to LayerHierarchy{RequestedLayerState{Transition Root: ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34151 parentId=33985 z=1} 1 children}
+03-15 14:29:17.337 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34146 parentId=34151 z=5} 1 children}] reparent to LayerHierarchy{RequestedLayerState{Transition Root: ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34151 parentId=33985 z=1} 2 children}
+03-15 14:29:17.337 I/SurfaceFlinger( 1567): [Transition Root: ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34151] attach to parent LayerHierarchy{RequestedLayerState{Task=621#33985 parentId=28419 z=7} 1 children}
+03-15 14:29:17.337 I/SurfaceFlinger( 1567): [DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152] attach to parent LayerHierarchy{RequestedLayerState{Transition Root: ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34151 parentId=33985 z=1} 3 children}
+03-15 14:29:17.337 I/SurfaceFlinger( 1567): [eb2d0b3 ActivityRecordInputSink com.example.kutuphane/.MainActivity#34153] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34146 parentId=34151 z=5} 3 children}
+03-15 14:29:17.338 D/SystemUIService(12757): SYSUI_RAM_OPTIMIZATION onTrimMemory=20
+03-15 14:29:17.338 D/CentralSurfaces(12757): SYSUI_RAM_OPTIMIZATION onTrimMemory=20
+03-15 14:29:17.342 I/BufferQueueProducer( 1567): [FramebufferSurface](this:0xb400006faf4f0370,id:-1,api:1,p:1567,c:1567) queueBuffer: fps=3.83 dur=1044.26 max=697.18 min=89.10
+03-15 14:29:17.344 D/HWUI    (12757): CacheManager::trimMemory(20)
+03-15 14:29:17.344 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.goster$_1328#34139(seamlessTransition:0)
+03-15 14:29:17.344 D/InputDispatcher(12320): Focus entered window (0): cb14707 com.example.kutuphane/com.example.kutuphane.MainActivity
+03-15 14:29:17.345 D/VRI[MainActivity]@da02908( 1328): mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007070bcce00}
+03-15 14:29:17.345 D/InputMethodManagerUtils( 1328): startInputInner - Id : 0
+03-15 14:29:17.345 I/InputMethodManager( 1328): startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+03-15 14:29:17.347 V/InputMethodManagerService(12320): startInputOrWindowGainedFocusInternalLocked: reason=WINDOW_FOCUS_GAIN client=android.os.BinderProxy@13e5fd3 inputContext=null editorInfo=android.view.inputmethod.EditorInfo@a671eb8 startInputFlags=VIEW_HAS_FOCUS|INITIAL_CONNECTION softInputMode=STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION windowFlags=#81810100 unverifiedTargetSdkVersion=31 bindingController=com.android.server.inputmethod.InputMethodBindingController@1cc1bc1 imeDispatcher=android.window.ImeOnBackInvokedDispatcher@3945491 cs=ClientState{2f68372 mUid=10286 mPid=1328 mSelfReportedDisplayId=0} imeRequestedVisible=false
+03-15 14:29:17.347 V/InputMethodManagerService(12320): setWindowStateInner, windowToken=android.os.BinderProxy@ab1946, state=ImeTargetWindowState{ imeToken null imeFocusChanged true hasEditorFocused false requestedImeVisible false imeDisplayId 0 softInputModeState STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION isStartInputByGainFocus true}
+03-15 14:29:17.347 V/InputMethodManagerService(12320): Unspecified window will hide input
+03-15 14:29:17.347 I/ImeTracker(12320): com.example.kutuphane:3885d584: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+03-15 14:29:17.347 V/InputMethodManagerService(12320): applyImeVisibility state=6
+03-15 14:29:17.347 D/SemInputMethodManagerServiceUtil(12320): restorePreviousUsedInputMethod : failed to return the previous ime becuase the stored info is null or do not need restore
+03-15 14:29:17.347 V/InputMethodManagerService(12320): semComputeImeDisplayIdForTarget: displayToShowIme=0
+03-15 14:29:17.347 V/InputMethodManagerService(12320): Creating new accessibility sessions for client ClientState{2f68372 mUid=10286 mPid=1328 mSelfReportedDisplayId=0}
+03-15 14:29:17.348 I/InputMethodManager( 1328): handleMessage: setImeVisibility visible=false
+03-15 14:29:17.348 D/InsetsController( 1328): hide(ime(), fromIme=false)
+03-15 14:29:17.348 I/ImeTracker( 1328): com.example.kutuphane:3885d584: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+03-15 14:29:17.348 D/InputMethodManagerService(12320): isImeSwitcherDisabledPackage : false
+03-15 14:29:17.348 D/InputMethodManagerService(12320): checkDisplayOfStartInputAndUpdateKeyboard: displayId=0, mFocusedDisplayId=0
+03-15 14:29:17.348 D/InputTransport(12320): Input channel constructed: 'ClientS', fd=940
+03-15 14:29:17.349 D/InputTransport(12320): Input channel destroyed: 'ClientS', fd=940
+03-15 14:29:17.349 D/InputTransport( 1328): Input channel constructed: 'ClientS', fd=161
+03-15 14:29:17.349 I/BufferQueueProducer( 1567): [StatusBar$_12757#28514](this:0xb400006f8846be38,id:-1,api:0,p:-1,c:1567) queueBuffer: fps=4.33 dur=1154.15 max=766.02 min=10.76
+03-15 14:29:17.350 I/HBD     (30070): HoneyBoardService onFinishInput 
+03-15 14:29:17.350 I/HBD     (30070): a IC have been unbinding,  RemoteInputConnection{idHash=#e6c0fb}
+03-15 14:29:17.350 D/RestrictionPolicy(12320): isScreenCaptureEnabled : ret=true userId=0
+03-15 14:29:17.350 I/HBD     (30070): HoneyBoardService [PF_CL][onFinishInput]  0 ms 
+03-15 14:29:17.350 I/SDHMS:k (14190): onTaskStackChanged
+03-15 14:29:17.350 I/WindowManager(12320): Cancelling animation restarting=true, leash=Surface(name=Surface(name=b1749ab InputMethod)/@0x6f02ba1 - animation-leash of insets_animation)/@0xa5df1d1
+03-15 14:29:17.350 I/WindowManager(12320): Reparenting to original parent: Surface(name=WindowToken{d3fbecc type=2011 android.os.Binder@42f30ff})/@0x113d1c6, destroy=false, surface=Surface(name=b1749ab InputMethod)/@0x6f02ba1
+03-15 14:29:17.351 I/WindowManager(12320): Reparenting to leash, surface=Surface(name=b1749ab InputMethod)/@0x6f02ba1, leashParent=Surface(name=WindowToken{d3fbecc type=2011 android.os.Binder@42f30ff})/@0x113d1c6
+03-15 14:29:17.351 I/HBD     (30070): HoneyBoardService [IMI] onStartInput - caller pid : 1328 , caller uid : 10286 
+03-15 14:29:17.351 I/HBD     (30070): k updateConfigs 
+03-15 14:29:17.351 I/HBD     (30070): k isEnabledNightMode : true 
+03-15 14:29:17.351 I/HBD     (30070): a IC have been binding, RemoteInputConnection{idHash=#e6c0fb} 
+03-15 14:29:17.351 I/HBD     (30070): h [EditorInputType]setPrivateImeOptionsToTable privateImeOptions ( null )
+03-15 14:29:17.351 I/SurfaceFlinger( 1567): id=34154 createSurf, flag=24004, Surface(name=b1749ab InputMethod)/@0x6f02ba1 - animation-leash of insets_animation#34154
+03-15 14:29:17.351 I/HBD     (30070): b incognitoMode : false 
+03-15 14:29:17.351 I/HBD     (30070): c needOff = true , isForceOff = false, isNullInputClass : true 
+03-15 14:29:17.351 I/HBD     (30070): h getDefaultInputRange : UNKNOWN 
+03-15 14:29:17.351 I/HBD     (30070): h getDefaultInputRange : UNKNOWN 
+03-15 14:29:17.351 I/HBD     (30070): h getDefaultInputRange : UNKNOWN 
+03-15 14:29:17.352 D/WindowManager(12320): makeSurface duration=1 leash=Surface(name=Surface(name=b1749ab InputMethod)/@0x6f02ba1 - animation-leash of insets_animation)/@0x298a8cd
+03-15 14:29:17.352 I/HBD     (30070): c needOff = true , isForceOff = false, isNullInputClass : true 
+03-15 14:29:17.352 I/HBD     (30070): c update cached prediction status : false 
+03-15 14:29:17.352 I/HBD     (30070): h getDefaultInputRange : UNKNOWN 
+03-15 14:29:17.352 I/HBD     (30070): a currentState : 0 
+03-15 14:29:17.352 D/InsetsSourceProvider(12320): updateControlForTarget: control=InsetsSourceControl: {3 mType=ime mSurfacePosition=Point(0, 80) mInsetsHint=Insets{left=0, top=0, right=0, bottom=879}}, target=Window{cb14707 u0 com.example.kutuphane/com.example.kutuphane.MainActivity}, from=com.android.server.wm.ImeInsetsSourceProvider.updateControlForTarget:17 com.android.server.wm.InsetsStateController.onControlTargetChanged:83 com.android.server.wm.DisplayContent.updateImeControlTarget:21 com.android.server.wm.DisplayContent.updateImeInputAndControlTarget:156 com.android.server.wm.WindowManagerService$LocalService.updateInputMethodTargetWindow:64 
+03-15 14:29:17.352 I/HBD     (30070): a [UpdatePolicy] [post] a: 0 cl: 4325376 kit: [0/0] vt: 0 ir: 1 
+03-15 14:29:17.352 I/ImeTracker(12320): system_server:c824772f: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+03-15 14:29:17.353 I/HoneySpace.RecentTasks(13277): onRecentTasksChanged
+03-15 14:29:17.354 V/InputMethodManagerService(12320): Client requesting input be hidden
+03-15 14:29:17.354 V/InputMethodManagerService(12320): setWindowStateInner, windowToken=android.os.BinderProxy@ab1946, state=ImeTargetWindowState{ imeToken android.os.Binder@5bea493 imeFocusChanged true hasEditorFocused false requestedImeVisible false imeDisplayId 0 softInputModeState STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION isStartInputByGainFocus true}
+03-15 14:29:17.355 I/HBD     (30070): a [NRIC] resetNoResponseState 
+03-15 14:29:17.355 I/HBD     (30070): c needOff = true , isForceOff = false, isNullInputClass : true 
+03-15 14:29:17.355 I/ImeTracker(12320): system_server:c824772f: onCancelled at PHASE_SERVER_SHOULD_HIDE
+03-15 14:29:17.355 I/HBD     (30070): c update cached prediction status : false 
+03-15 14:29:17.355 V/InputMethodManagerService(12320): hideCurrentInputLocked : canceled, shouldHideSoftInput=false, mInputShown=false, mImeWindowVis=0
+03-15 14:29:17.355 I/HBD     (30070): b [AiWriter] setContact : com.example.kutuphane
+03-15 14:29:17.355 I/HBD     (30070): a [AiWriter] setContact : com.example.kutuphane
+03-15 14:29:17.355 I/HBD     (30070): o0 EBD si S 0 
+03-15 14:29:17.355 I/HBD     (30070): r updateContactDBLanguage : 4325376 
+03-15 14:29:17.356 I/HBD     (30070): g isCoverDisplay : false, cached selected json info : SelectedLanguageInfo(languageVersion=4.2, currentLanguageOrder=0, selectedLanguageList=[SelectedLanguage(id=4325376, isUsed=true, engName=Turkish, inputType=qwerty, activeOptionList=[auto_replace, spell_check, auto_spacing], bilingualId=-1)]) 
+03-15 14:29:17.356 I/HBD     (30070): g updateSelectedLanguageCache is succeeded. Turkish 
+03-15 14:29:17.356 I/HBD     (30070): l writeToFile path : /data/user/0/com.samsung.android.honeyboard/files/selected.json 
+03-15 14:29:17.356 I/HBD     (30070): l writeToFile json : {"version":"4.2","currentLanguageOrder":0,"selected":[{"activeOptionList":["auto_replace","spell_check","auto_spacing"],"bilingualId":-1,"engName":"Turkish","id":4325376,"inputType":"qwerty","isUsed":true}]} 
+03-15 14:29:17.359 I/HBD     (30070): l writeToFile complete 
+03-15 14:29:17.360 E/SurfaceFlinger( 1567): alpha changed 0.000 -> 0.013 - DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152
+03-15 14:29:17.360 I/SurfaceFlinger( 1567): [Surface(name=b1749ab InputMethod)/@0x6f02ba1 - animation-leash of insets_animation#34154] attach to parent LayerHierarchy{RequestedLayerState{WindowToken{d3fbecc type=2011 android.os.Binder@42f30ff}#28541 parentId=28424} 2 children}
+03-15 14:29:17.361 I/HBD     (30070): g isCoverDisplay : false, cached selected json info : SelectedLanguageInfo(languageVersion=4.2, currentLanguageOrder=0, selectedLanguageList=[SelectedLanguage(id=4325376, isUsed=true, engName=Turkish, inputType=qwerty, activeOptionList=[auto_replace, spell_check, auto_spacing], bilingualId=-1)]) 
+03-15 14:29:17.361 I/HBD     (30070): n updateActionOptionFromPreference isCover = false 
+03-15 14:29:17.361 I/HBD     (30070): n before lang.activeOptionList =  [auto_replace, spell_check, auto_spacing] 
+03-15 14:29:17.361 I/HBD     (30070): l Write selected lang for DE  
+03-15 14:29:17.361 I/HBD     (30070): l writeToFile path : /data/user_de/0/com.samsung.android.honeyboard/files/selected.json 
+03-15 14:29:17.361 I/HBD     (30070): l writeToFile json : {"version":"4.2","currentLanguageOrder":0,"selected":[{"activeOptionList":["auto_replace","spell_check","auto_spacing"],"bilingualId":-1,"engName":"Turkish","id":4325376,"inputType":"qwerty","isUsed":true}]} 
+03-15 14:29:17.361 I/HBD     (30070): n after lang.activeOptionList = [auto_replace, spell_check, auto_spacing] 
+03-15 14:29:17.362 I/HBD     (30070): l writeToFile path : /data/user/0/com.samsung.android.honeyboard/files/selected.json 
+03-15 14:29:17.362 I/HBD     (30070): l writeToFile json : {"version":"4.2","currentLanguageOrder":0,"selected":[{"activeOptionList":["auto_replace","spell_check","auto_spacing"],"bilingualId":-1,"engName":"Turkish","id":4325376,"inputType":"qwerty","isUsed":true}]} 
+03-15 14:29:17.364 I/HBD     (30070): l writeToFile complete 
+03-15 14:29:17.364 I/HBD     (30070): l writeToFile complete 
+03-15 14:29:17.364 I/HBD     (30070): m normal : updateLanguage : Turkish 
+03-15 14:29:17.364 I/HBD     (30070): g isCoverDisplay : false, cached selected json info : SelectedLanguageInfo(languageVersion=4.2, currentLanguageOrder=0, selectedLanguageList=[SelectedLanguage(id=4325376, isUsed=true, engName=Turkish, inputType=qwerty, activeOptionList=[auto_replace, spell_check, auto_spacing], bilingualId=-1)]) 
+03-15 14:29:17.365 I/HBD     (30070): g isCoverDisplay : false, cached selected json info : SelectedLanguageInfo(languageVersion=4.2, currentLanguageOrder=0, selectedLanguageList=[SelectedLanguage(id=4325376, isUsed=true, engName=Turkish, inputType=qwerty, activeOptionList=[auto_replace, spell_check, auto_spacing], bilingualId=-1)]) 
+03-15 14:29:17.365 I/HBD     (30070): n updateActionOptionFromPreference isCover = false 
+03-15 14:29:17.365 I/HBD     (30070): n before lang.activeOptionList =  [auto_replace, spell_check, auto_spacing] 
+03-15 14:29:17.365 I/HBD     (30070): n after lang.activeOptionList = [auto_replace, spell_check, auto_spacing] 
+03-15 14:29:17.366 I/HBD     (30070): l writeToFile path : /data/user/0/com.samsung.android.honeyboard/files/selected.json 
+03-15 14:29:17.366 I/HBD     (30070): l writeToFile json : {"version":"4.2","currentLanguageOrder":0,"selected":[{"activeOptionList":["auto_replace","spell_check","auto_spacing"],"bilingualId":-1,"engName":"Turkish","id":4325376,"inputType":"qwerty","isUsed":true}]} 
+03-15 14:29:17.366 I/HBD     (30070): l Write selected lang for DE  
+03-15 14:29:17.366 I/HBD     (30070): l writeToFile path : /data/user_de/0/com.samsung.android.honeyboard/files/selected.json 
+03-15 14:29:17.366 I/HBD     (30070): l writeToFile json : {"version":"4.2","currentLanguageOrder":0,"selected":[{"activeOptionList":["auto_replace","spell_check","auto_spacing"],"bilingualId":-1,"engName":"Turkish","id":4325376,"inputType":"qwerty","isUsed":true}]} 
+03-15 14:29:17.368 I/HBD     (30070): l writeToFile complete 
+03-15 14:29:17.368 I/HBD     (30070): l writeToFile complete 
+03-15 14:29:17.369 I/HBD     (30070): m normal : updateLanguage : Turkish 
+03-15 14:29:17.369 I/HBD     (30070): g isCoverDisplay : false, cached selected json info : SelectedLanguageInfo(languageVersion=4.2, currentLanguageOrder=0, selectedLanguageList=[SelectedLanguage(id=4325376, isUsed=true, engName=Turkish, inputType=qwerty, activeOptionList=[auto_replace, spell_check, auto_spacing], bilingualId=-1)]) 
+03-15 14:29:17.369 I/HBD     (30070): g isCoverDisplay : false, cached selected json info : SelectedLanguageInfo(languageVersion=4.2, currentLanguageOrder=0, selectedLanguageList=[SelectedLanguage(id=4325376, isUsed=true, engName=Turkish, inputType=qwerty, activeOptionList=[auto_replace, spell_check, auto_spacing], bilingualId=-1)]) 
+03-15 14:29:17.369 I/HBD     (30070): g updateSelectedLanguageCache is succeeded. Turkish 
+03-15 14:29:17.369 I/HBD     (30070): l Write selected lang for DE  
+03-15 14:29:17.369 I/HBD     (30070): l writeToFile path : /data/user_de/0/com.samsung.android.honeyboard/files/selected.json 
+03-15 14:29:17.369 I/HBD     (30070): l writeToFile json : {"version":"4.2","currentLanguageOrder":0,"selected":[{"activeOptionList":["auto_replace","spell_check","auto_spacing"],"bilingualId":-1,"engName":"Turkish","id":4325376,"inputType":"qwerty","isUsed":true}]} 
+03-15 14:29:17.370 I/HBD     (30070): l writeToFile path : /data/user/0/com.samsung.android.honeyboard/files/selected.json 
+03-15 14:29:17.370 I/HBD     (30070): l writeToFile json : {"version":"4.2","currentLanguageOrder":0,"selected":[{"activeOptionList":["auto_replace","spell_check","auto_spacing"],"bilingualId":-1,"engName":"Turkish","id":4325376,"inputType":"qwerty","isUsed":true}]} 
+03-15 14:29:17.370 D/SurfaceFlinger( 1567): Display 4627039422300187648 HWC layers:
+03-15 14:29:17.370 D/SurfaceFlinger( 1567):        CLIENT |            5703716569095 | 00002102 | RGBA_8888    |   20.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.example.kutuphane/com.example.kutuphane.goster$_1328#34139 (1)
+03-15 14:29:17.370 D/SurfaceFlinger( 1567):   SOLID_COLOR |                        0 | 00000000 | N/A          |    0.0    0.0    0.0    0.0 |    0    0 1080 2340 | DimTransitionLayer for Surface(name=[...]MainActivity t621})/@0xb192589#34152 (0)
+03-15 14:29:17.370 D/SurfaceFlinger( 1567):        DEVICE |            5703716569096 | 00002102 | RGBA_8888    |    0.0    0.0   68.0 2340.0 | 1012    0 1080 2340 | com.example.kutuphane/com.example.kutuphane.MainActivity$_1328#34148 (1)
+03-15 14:29:17.370 D/SurfaceFlinger( 1567):        DEVICE |           54790897796221 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0   80.0 |    0    0 1080   80 | StatusBar$_12757#28514 (8481)
+03-15 14:29:17.370 D/SurfaceFlinger( 1567):        DEVICE |           57024280789849 | 00002100 | RGBA_8888    |    0.0    0.0   67.0  353.0 | 1013  269 1080  622 | com.sec.android.app.launcher/com.sam[...].app.CocktailBarService$_13277#34120 (1)
+03-15 14:29:17.370 D/SurfaceFlinger( 1567):        DEVICE |           54790897796215 | 0
+03-15 14:29:17.370 D/SurfaceFlinger( 1567): 0002100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2214 1080 2340 | NavigationBar0$_12757#28510 (9241)
+03-15 14:29:17.370 D/SurfaceFlinger( 1567): 
+03-15 14:29:17.371 I/SurfaceFlinger( 1567): RequestedLayer [Surface(name=b1749ab InputMethod)/@0[...]tion-leash of insets_animation#34154] hidden!! flag  from(1) --> to(0)
+03-15 14:29:17.371 E/SurfaceFlinger( 1567): alpha changed 1.000 -> 0.000 - Surface(name=b1749ab InputMethod)/@0x6f02ba1 - animation-leash of insets_animation#34154
+03-15 14:29:17.371 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{ImeContainer#28424 parentId=34146 relativeParentId=34147 z=1} 1 children}] reparent to LayerHierarchy{RequestedLayerState{ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34146 parentId=34151 z=5} 4 children}
+03-15 14:29:17.371 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{ImeContainer#28424 parentId=34146 relativeParentId=34147 z=1} 1 children}] RelativeParent to LayerHierarchy{RequestedLayerState{cb14707 com.example.kutuphane/com.example.kutuphane.MainActivity#34147 parentId=34146} 2 children}
+03-15 14:29:17.371 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{b1749ab InputMethod#28543 parentId=34154} no children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=b1749ab InputMethod)/@0x6f02ba1 - animation-leash of insets_animation#34154 parentId=28541} 1 children}
+03-15 14:29:17.371 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{Surface(name=b1749ab InputMethod)/@0x6f02ba1 - animation-leash of insets_animation#34144} no children}] reparent to OffscreenRoot
+03-15 14:29:17.371 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{Surface(name=b1749ab InputMethod)/@0x6f02ba1 - animation-leash of insets_animation#34144} no children}] RelativeParent to null
+03-15 14:29:17.372 I/SurfaceFlinger( 1567): onHandleDestroyed: layerId=34144, name=Surface(name=b1749ab InputMethod)/@0x6f02ba1 - animation-leash of insets_animation#34144
+03-15 14:29:17.372 I/SurfaceFlinger( 1567): id=34144 Removed Surface(name=b1749ab InputMethod)/@0x6f02ba1 - animation-leash of insets_animation#34144 (212)
+03-15 14:29:17.373 I/HBD     (30070): l writeToFile complete 
+03-15 14:29:17.373 I/HBD     (30070): l writeToFile complete 
+03-15 14:29:17.374 I/HBD     (30070): g isCoverDisplay : false, cached selected json info : SelectedLanguageInfo(languageVersion=4.2, currentLanguageOrder=0, selectedLanguageList=[SelectedLanguage(id=4325376, isUsed=true, engName=Turkish, inputType=qwerty, activeOptionList=[auto_replace, spell_check, auto_spacing], bilingualId=-1)]) 
+03-15 14:29:17.374 I/HBD     (30070): g updateSelectedLanguageCache is succeeded. Turkish 
+03-15 14:29:17.374 I/HBD     (30070): l writeToFile path : /data/user/0/com.samsung.android.honeyboard/files/selected.json 
+03-15 14:29:17.374 I/HBD     (30070): l writeToFile json : {"version":"4.2","currentLanguageOrder":0,"selected":[{"activeOptionList":["auto_replace","spell_check","auto_spacing"],"bilingualId":-1,"engName":"Turkish","id":4325376,"inputType":"qwerty","isUsed":true}]} 
+03-15 14:29:17.375 I/HBD     (30070): l Write selected lang for DE  
+03-15 14:29:17.375 I/HBD     (30070): l writeToFile path : /data/user_de/0/com.samsung.android.honeyboard/files/selected.json 
+03-15 14:29:17.375 I/HBD     (30070): l writeToFile json : {"version":"4.2","currentLanguageOrder":0,"selected":[{"activeOptionList":["auto_replace","spell_check","auto_spacing"],"bilingualId":-1,"engName":"Turkish","id":4325376,"inputType":"qwerty","isUsed":true}]} 
+03-15 14:29:17.376 D/KNOX_MDM_SettingsProvider(12320): isChangeAllowed() : name = enabled_input_methods
+03-15 14:29:17.376 D/KNOX_MDM_SettingsProvider(12320): edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+03-15 14:29:17.376 D/KNOX_MDM_SettingsProvider(12320): projectionArgs: isSettingsChangesAllowed
+03-15 14:29:17.376 D/KNOX_MDM_SettingsProvider(12320): selectionArgs: false
+03-15 14:29:17.376 D/KNOX_MDM_SettingsProvider(12320): selectionArgs: 10170
+03-15 14:29:17.376 D/SecContentProvider(12320): query(), uri = 17 selection = isSettingsChangesAllowed
+03-15 14:29:17.377 D/SecContentProvider(12320): called from android.uid.honeyboard:10170
+03-15 14:29:17.377 D/RestrictionPolicy(12320): isSettingsChangesAllowedAsUser, userId 0 : true
+03-15 14:29:17.377 D/KNOX_MDM_SettingsProvider(12320): ret = 1
+03-15 14:29:17.377 I/HBD     (30070): l writeToFile complete 
+03-15 14:29:17.377 I/HBD     (30070): l writeToFile complete 
+03-15 14:29:17.378 D/KNOX_MDM_SettingsProvider(12320): isChangeAllowed() : name = default_input_method
+03-15 14:29:17.378 I/HBD     (30070): l Write selected lang for DE  
+03-15 14:29:17.378 D/KNOX_MDM_SettingsProvider(12320): edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+03-15 14:29:17.378 I/HBD     (30070): a [UpdatePolicy] [post] a: 31 cl: 4325376 kit: [0/0] vt: 0 ir: 1 
+03-15 14:29:17.378 D/KNOX_MDM_SettingsProvider(12320): projectionArgs: isSettingsChangesAllowed
+03-15 14:29:17.378 D/KNOX_MDM_SettingsProvider(12320): selectionArgs: false
+03-15 14:29:17.378 D/KNOX_MDM_SettingsProvider(12320): selectionArgs: 10170
+03-15 14:29:17.378 D/KNOX_MDM_SettingsProvider(12320): isChangeAllowed() : name = enabled_input_methods
+03-15 14:29:17.378 D/KNOX_MDM_SettingsProvider(12320): edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+03-15 14:29:17.378 I/HBD     (30070): l writeToFile path : /data/user_de/0/com.samsung.android.honeyboard/files/selected.json 
+03-15 14:29:17.378 D/KNOX_MDM_SettingsProvider(12320): projectionArgs: isSettingsChangesAllowed
+03-15 14:29:17.378 D/KNOX_MDM_SettingsProvider(12320): selectionArgs: false
+03-15 14:29:17.378 D/KNOX_MDM_SettingsProvider(12320): selectionArgs: 10170
+03-15 14:29:17.378 I/HBD     (30070): l writeToFile json : {"version":"4.2","currentLanguageOrder":0,"selected":[{"activeOptionList":["auto_replace","spell_check","auto_spacing"],"bilingualId":-1,"engName":"Turkish","id":4325376,"inputType":"qwerty","isUsed":true}]} 
+03-15 14:29:17.378 D/SecContentProvider(12320): query(), uri = 17 selection = isSettingsChangesAllowed
+03-15 14:29:17.378 D/SecContentProvider(12320): query(), uri = 17 selection = isSettingsChangesAllowed
+03-15 14:29:17.378 D/SecContentProvider(12320): called from android.uid.honeyboard:10170
+03-15 14:29:17.378 I/HBD     (30070): HoneyBoardService [PF_OP][onStartInput]  27 ms 
+03-15 14:29:17.378 D/SecContentProvider(12320): called from android.uid.honeyboard:10170
+03-15 14:29:17.378 D/RestrictionPolicy(12320): isSettingsChangesAllowedAsUser, userId 0 : true
+03-15 14:29:17.378 D/KNOX_MDM_SettingsProvider(12320): ret = 1
+03-15 14:29:17.378 D/RestrictionPolicy(12320): isSettingsChangesAllowedAsUser, userId 0 : true
+03-15 14:29:17.378 D/KNOX_MDM_SettingsProvider(12320): ret = 1
+03-15 14:29:17.378 I/InputMethodService(30070): scheduleImeSurfaceRemoval: removeImeSurface is posted.
+03-15 14:29:17.379 D/KNOX_MDM_SettingsProvider(12320): isChangeAllowed() : name = default_input_method
+03-15 14:29:17.379 D/KNOX_MDM_SettingsProvider(12320): edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+03-15 14:29:17.379 D/KNOX_MDM_SettingsProvider(12320): projectionArgs: isSettingsChangesAllowed
+03-15 14:29:17.379 D/KNOX_MDM_SettingsProvider(12320): selectionArgs: false
+03-15 14:29:17.379 D/KNOX_MDM_SettingsProvider(12320): selectionArgs: 10170
+03-15 14:29:17.379 D/SecContentProvider(12320): query(), uri = 17 selection = isSettingsChangesAllowed
+03-15 14:29:17.379 D/SecContentProvider(12320): called from android.uid.honeyboard:10170
+03-15 14:29:17.379 D/RestrictionPolicy(12320): isSettingsChangesAllowedAsUser, userId 0 : true
+03-15 14:29:17.379 D/KNOX_MDM_SettingsProvider(12320): ret = 1
+03-15 14:29:17.379 I/HBD     (30070): a [SKE_SPECIFIC] specific model[com.example.kutuphane] loaded, 313616 ns
+03-15 14:29:17.379 I/HBD     (30070): u updated Sub Types. Turkish 
+03-15 14:29:17.379 I/HBD     (30070): u updated Sub Types. Turkish 
+03-15 14:29:17.380 D/FreecessHandler(12320): freeze com.example.kutuphane(10286) result : 37
+03-15 14:29:17.380 I/HBD     (30070): l writeToFile complete 
+03-15 14:29:17.380 I/HBD     (30070): b InputMethodSubtype is set as local:tr 
+03-15 14:29:17.382 I/SurfaceFlinger( 1567): destroyed Surface(name=b1749ab InputMethod)/@0x6f02ba1 - animation-leash of insets_animation#34144
+03-15 14:29:17.382 I/Layer   ( 1567): id=34144 Destroyed Surface(name=b1749ab InputMethod)/@0x6f02ba1 - animation-leash of insets_animation#34144
+03-15 14:29:17.382 I/InputMethodManagerService(12320): subtype state: oldSubtype = android.view.inputmethod.InputMethodSubtype@420000 newSubtype = android.view.inputmethod.InputMethodSubtype@420000 force = false, intent received : false
+03-15 14:29:17.383 I/HBD     (30070): b InputMethodSubtype is set as local:tr 
+03-15 14:29:17.384 I/InputMethodManagerService(12320): subtype state: oldSubtype = android.view.inputmethod.InputMethodSubtype@420000 newSubtype = android.view.inputmethod.InputMethodSubtype@420000 force = false, intent received : false
+03-15 14:29:17.429 D/WifiConnectivityMonitor(12320): start WCM Poll.
+03-15 14:29:17.444 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.goster$_1328#34139(seamlessTransition:0)
+03-15 14:29:17.444 I/SurfaceFlinger( 1567): Capture layer list: 	 DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152(seamlessTransition:0)
+03-15 14:29:17.444 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.MainActivity$_1328#34148(seamlessTransition:0)
+03-15 14:29:17.545 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.goster$_1328#34139(seamlessTransition:0)
+03-15 14:29:17.545 I/SurfaceFlinger( 1567): Capture layer list: 	 DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152(seamlessTransition:0)
+03-15 14:29:17.545 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.MainActivity$_1328#34148(seamlessTransition:0)
+03-15 14:29:17.556 I/HoneySpace.EdgePanel.EdgeVisibilityRepository(13277): getComputedTrayVisible : keyguardState = 1
+03-15 14:29:17.556 I/HoneySpace.EdgePanel.EdgeVisibilityRepository(13277): updateTrayVisible: State = 0x1, visible = true, current containerState = 0, specificMode = 0
+03-15 14:29:17.556 I/HoneySpace.EdgePanel.EdgeVisibilityRepository(13277): Same container state 0
+03-15 14:29:17.598 W/RealtimeClientManager(12538): Channel state: MqttChannelState{mConnectionState=CONNECTING, mDisconnectionReason=null, mLastConnectionMs=243155820, mLastDisconnectMs=243442615}
+03-15 14:29:17.602 D/NetdEventListenerService(12320): DNS Requested by 104, 10304(com.instagram.android), 4(FAIL), isBlocked=true, 0ms
+03-15 14:29:17.620 I/mtkpower_client(12099): perf_lock_rel, hdl:14136, pid: 12099, tid:2539
+03-15 14:29:17.620 I/libPowerHal( 1520): [perfLockRel] hdl:14136, idx:3
+03-15 14:29:17.620 I/mtkpower_client(12099): perf_lock_acq, hdl:0, dur:0, num:2, pid:12099, tid:2539
+03-15 14:29:17.621 I/libPowerHal( 1520): [set_cpuidle] enable:1, fd:17, scn:0xb4000078fe80a868
+03-15 14:29:17.621 I/libPowerHal( 1520): [PD] vendor.samsung. update cmd:1c3c100 param:1 pr:6
+03-15 14:29:17.621 I/libPowerHal( 1520): [perfLockRel] Done for hdl : 14136
+03-15 14:29:17.621 I/libPowerHal( 1520): [perfLockAcq] idx:1 hdl:14138 hint:-1 pid:12099 tid:2539 duration:0 lock_user:vendor.samsung. => ret_hdl:14138
+03-15 14:29:17.621 I/libPowerHal( 1520): [set_cpuidle] enable:0, fd:17, scn:0xb4000078fe804178
+03-15 14:29:17.621 I/mtkpower_client(12099): ret_hdl:14138
+03-15 14:29:17.621 I/mtkpower_client(12099): perf_lock_rel, hdl:14137, pid: 12099, tid:2539
+03-15 14:29:17.621 I/libPowerHal( 1520): [get_cpu_dma_latency_value] 0
+03-15 14:29:17.621 I/libPowerHal( 1520): [PE] vendor.samsung. update cmd:1c3c100 param:0 pr:3
+03-15 14:29:17.621 I/libPowerHal( 1520): [perfLockAcq] Done for hdl : 14138
+03-15 14:29:17.621 I/libPowerHal( 1520): [perfLockRel] hdl:14137, idx:4
+03-15 14:29:17.621 I/mtkpower_client(12099): perf_lock_acq, hdl:0, dur:0, num:2, pid:12099, tid:2539
+03-15 14:29:17.622 I/libPowerHal( 1520): [PD] vendor.samsung. update cmd:1000000 param:-1 pr:6
+03-15 14:29:17.622 I/libPowerHal( 1520): [perfLockRel] Done for hdl : 14137
+03-15 14:29:17.622 I/mtkpower_client(12099): ret_hdl:14139
+03-15 14:29:17.622 I/libPowerHal( 1520): [perfLockAcq] idx:3 hdl:14139 hint:-1 pid:12099 tid:2539 duration:0 lock_user:vendor.samsung. => ret_hdl:14139
+03-15 14:29:17.622 I/libPowerHal( 1520): [setDvfsrcDevFreqOpp] opp:0, freq:4266000000
+03-15 14:29:17.622 I/libPowerHal( 1520): [PE] vendor.samsung. update cmd:1000000 param:0 pr:3
+03-15 14:29:17.622 I/libPowerHal( 1520): [perfLockAcq] Done for hdl : 14139
+03-15 14:29:17.622 I/HYPER-HAL(12099): [RequestManager.cpp]releaseLocked(): Released ID : 76094632
+03-15 14:29:17.653 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.goster$_1328#34139(seamlessTransition:0)
+03-15 14:29:17.653 I/SurfaceFlinger( 1567): Capture layer list: 	 DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152(seamlessTransition:0)
+03-15 14:29:17.653 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.MainActivity$_1328#34148(seamlessTransition:0)
+03-15 14:29:17.743 D/io_stats(  582): !@   8,32 r 7569079 164652596 w 5383269 70478340 d 599074 219338816 f 475566 529283 iot 2438356 0 th 0 0 0 pt 0 inp 0 0 118916.040
+03-15 14:29:17.743 D/io_stats(  582): !@ Read_top(KB): roid.kmxservice:low(27759) 68 gle.android.gms:high(13922) 8 system_server:high(12320) 4
+03-15 14:29:17.743 D/io_stats(  582): !@ Write_top(KB): kworker/u32:0:/(29547) 540 roid.honeyboard:top(30070) 80 jbd2/sdc3-8:/(556) 76
+03-15 14:29:17.753 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.goster$_1328#34139(seamlessTransition:0)
+03-15 14:29:17.753 I/SurfaceFlinger( 1567): Capture layer list: 	 DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152(seamlessTransition:0)
+03-15 14:29:17.753 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.MainActivity$_1328#34148(seamlessTransition:0)
+03-15 14:29:17.780 D/ActivityManager(12320): freezing 26781 com.samsung.android.lool
+03-15 14:29:17.794 V/WindowManagerShell(12757): Transition animation finished (aborted=false), notifying core (#436) android.os.BinderProxy@efe5b42@0
+03-15 14:29:17.794 I/SurfaceControlRegistry(12757): apply, t=FinishTransaction_SyncId<436>, caller=android.view.SurfaceControl$Transaction.apply:3459 android.view.SurfaceControl$Transaction.apply:3447 android.view.SurfaceControl$Transaction.apply:3397 com.android.wm.shell.transition.Transitions.onFinish:315 com.android.wm.shell.transition.Transitions$$ExternalSyntheticLambda7.onTransitionFinished:12 com.android.wm.shell.transition.DefaultTransitionHandler$$ExternalSyntheticLambda6.run:36 
+03-15 14:29:17.795 D/SurfaceFlinger( 1567): Display 4627039422300187648 HWC layers:
+03-15 14:29:17.795 D/SurfaceFlinger( 1567):        DEVICE |            5703716569095 | 00002102 | RGBA_8888    |    0.0    0.0    0.0    0.0 |    0    0   -1   -1 | com.example.kutuphane/com.example.kutuphane.goster$_1328#34139 (1)
+03-15 14:29:17.795 D/SurfaceFlinger( 1567):   SOLID_COLOR |                        0 | 00000000 | N/A          |    0.0    0.0    0.0    0.0 |    0    0   -1   -1 | DimTransitionLayer for Surface(name=[...]MainActivity t621})/@0xb192589#34152 (0)
+03-15 14:29:17.795 D/SurfaceFlinger( 1567):        DEVICE |            5703716569096 | 00002102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.example.kutuphane/com.example.kutuphane.MainActivity$_1328#34148 (1)
+03-15 14:29:17.795 D/SurfaceFlinger( 1567):        DEVICE |           54790897796221 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0   80.0 |    0    0 1080   80 | StatusBar$_12757#28514 (8481)
+03-15 14:29:17.795 D/SurfaceFlinger( 1567):        DEVICE |           57024280789849 | 00002100 | RGBA_8888    |    0.0    0.0   67.0  353.0 | 1013  269 1080  622 | com.sec.android.app.launcher/com.sam[...].app.CocktailBarService$_13277#34120 (1)
+03-15 14:29:17.795 D/SurfaceFlinger( 1567):        DEVICE |           54790897796215 | 0
+03-15 14:29:17.795 D/SurfaceFlinger( 1567): 0002100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2214 1080 2340 | NavigationBar0$_12757#28510 (9241)
+03-15 14:29:17.795 D/SurfaceFlinger( 1567): 
+03-15 14:29:17.797 V/WindowManager(12320): Finish Transition: TransitionRecord{b2b9670 id=436 type=OPEN flags=0x0 c=[
+03-15 14:29:17.797 V/WindowManager(12320):    ChangeInfo{99e0b1e container=ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621} flags=0x0}
+03-15 14:29:17.797 V/WindowManager(12320):    ChangeInfo{5ccefa5 container=DefaultTaskDisplayArea_d0@21689571 flags=0x0}
+03-15 14:29:17.797 V/WindowManager(12320):    ChangeInfo{7e47f7a container=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621} flags=0x0}
+03-15 14:29:17.797 V/WindowManager(12320):    ChangeInfo{d7da32b container=Display{#0 state=ON size=1080x2340 ROTATION_0} flags=0x0}
+03-15 14:29:17.797 V/WindowManager(12320):    ChangeInfo{477c388 container=Task{ed8ed02 #621 type=standard A=10286:com.example.kutuphane} flags=0x0}
+03-15 14:29:17.797 V/WindowManager(12320): ]
+03-15 14:29:17.797 V/WindowManager(12320): }, caller=com.android.server.wm.WindowOrganizerController.finishTransitionInner:31 com.android.server.wm.WindowOrganizerController.finishAllTransitions:60 android.window.IWindowOrganizerController$Stub.onTransact:283 
+03-15 14:29:17.798 V/WindowManager(12320): Finish Transition (#436): created at 03-15 14:29:17.224 collect-started=1.196ms request-sent=15.435ms started=26.29ms ready=26.273ms sent=94.521ms commit=19.616ms finished=572.639ms
+03-15 14:29:17.798 V/WindowManager(12320): Setting visibility of Window{605262f u0 com.example.kutuphane/com.example.kutuphane.goster}: false, caller=com.android.server.wm.WindowContainer.sendAppVisibilityToClients:19 com.android.server.wm.WindowToken.setClientVisible:48 com.android.server.wm.ActivityRecord.commitVisibility:186 com.android.server.wm.TransitionController.finishTransition:846 com.android.server.wm.WindowOrganizerController.finishTransitionInner:31 
+03-15 14:29:17.798 I/VRI[goster]@cac3546( 1328): handleAppVisibility mAppVisible = true visible = false
+03-15 14:29:17.798 D/VRI[goster]@cac3546( 1328): visibilityChanged oldVisibility=true newVisibility=false
+03-15 14:29:17.799 D/ChangeTransitionController(12320): onTransitionFinished: TransitionRecord{b2b9670 id=436 type=OPEN flags=0x0 c=[
+03-15 14:29:17.799 D/ChangeTransitionController(12320):    ChangeInfo{99e0b1e container=ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621} flags=0x0}
+03-15 14:29:17.799 D/ChangeTransitionController(12320):    ChangeInfo{5ccefa5 container=DefaultTaskDisplayArea_d0@21689571 flags=0x0}
+03-15 14:29:17.799 D/ChangeTransitionController(12320):    ChangeInfo{7e47f7a container=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621} flags=0x0}
+03-15 14:29:17.799 D/ChangeTransitionController(12320):    ChangeInfo{d7da32b container=Display{#0 state=ON size=1080x2340 ROTATION_0} flags=0x0}
+03-15 14:29:17.799 D/ChangeTransitionController(12320):    ChangeInfo{477c388 container=Task{ed8ed02 #621 type=standard A=10286:com.example.kutuphane} flags=0x0}
+03-15 14:29:17.799 D/ChangeTransitionController(12320): ]
+03-15 14:29:17.799 D/ChangeTransitionController(12320): }
+03-15 14:29:17.800 V/WindowManagerShell(12757): Track 0 became idle
+03-15 14:29:17.800 V/WindowManagerShell(12757): All active transition animations finished
+03-15 14:29:17.803 I/SurfaceFlinger( 1567): RequestedLayer [ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621}#34046] hidden!! flag  from(0) --> to(1)
+03-15 14:29:17.803 I/SurfaceFlinger( 1567): [Display 0 name="Yerleşik Ekran"#28458] setFrameRateCategory: Default
+03-15 14:29:17.803 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{ActivityRecord{15935008 u0 com.example.kutuphane/.goster t621}#34046 parentId=33985} 2 children}] reparent to LayerHierarchy{RequestedLayerState{Task=621#33985 parentId=28419 z=7} 2 children}
+03-15 14:29:17.803 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34146 parentId=33985 z=1} 4 children}] reparent to LayerHierarchy{RequestedLayerState{Task=621#33985 parentId=28419 z=7} 3 children}
+03-15 14:29:17.803 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{Transition Root: ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34151 z=1} 1 children}] reparent to OffscreenRoot
+03-15 14:29:17.803 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{Transition Root: ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34151 z=1} 1 children}] RelativeParent to null
+03-15 14:29:17.803 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152 z=-1} no children}] reparent to OffscreenRoot
+03-15 14:29:17.803 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152 z=-1} no children}] RelativeParent to null
+03-15 14:29:17.804 D/SystemUIService(12757): SYSUI_RAM_OPTIMIZATION onTrimMemory=20
+03-15 14:29:17.804 D/CentralSurfaces(12757): SYSUI_RAM_OPTIMIZATION onTrimMemory=20
+03-15 14:29:17.804 D/HWUI    (12757): CacheManager::trimMemory(20)
+03-15 14:29:17.804 I/SurfaceFlinger( 1567): onHandleDestroyed: layerId=34152, name=DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152
+03-15 14:29:17.804 I/SurfaceFlinger( 1567): id=34152 Removed DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152 (211)
+03-15 14:29:17.804 I/SurfaceFlinger( 1567): onHandleDestroyed: layerId=34151, name=Transition Root: ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34151
+03-15 14:29:17.804 I/SurfaceFlinger( 1567): id=34151 Removed Transition Root: ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34151 (211)
+03-15 14:29:17.804 E/RefreshRateSelector( 1567): Can't find HRR max refresh rate by policy with the same group 0
+03-15 14:29:17.807 I/WindowManager(12320): Relayout Window{605262f u0 com.example.kutuphane/com.example.kutuphane.goster}: viewVisibility=8 req=1080x2340 ty=1 d0
+03-15 14:29:17.808 I/WindowManager(12320): Relayout hash=605262f, pid=1328, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030317
+03-15 14:29:17.808 I/WindowManager(12320):   fl=81810100
+03-15 14:29:17.808 I/WindowManager(12320):   pfl=100080c0
+03-15 14:29:17.808 I/WindowManager(12320):   apr=10
+03-15 14:29:17.808 I/WindowManager(12320):   bhv=1
+03-15 14:29:17.808 I/WindowManager(12320):   fitSides=0
+03-15 14:29:17.808 I/WindowManager(12320):   frameRateBoostOnTouch=true
+03-15 14:29:17.808 I/WindowManager(12320):   dvrrWindowFrameRateHint=true naviIconColor=0
+03-15 14:29:17.808 I/WindowManager(12320):   sfl=100000}
+03-15 14:29:17.809 I/BLASTBufferQueue( 1328): [VRI[goster]@cac3546#1](f:0,a:1,s:0) destructor()
+03-15 14:29:17.809 D/BufferQueueConsumer( 1328): [VRI[goster]@cac3546#1(BLAST Consumer)1](id:53000000001,api:0,p:-1,c:1328) disconnect
+03-15 14:29:17.810 I/VRI[goster]@cac3546( 1328): Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)8 dur=4 res=0x2 s={false 0x0} ch=true seqId=0
+03-15 14:29:17.810 D/VRI[goster]@cac3546( 1328): Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility
+03-15 14:29:17.810 I/VRI[goster]@cac3546( 1328): stopped(true) old = false
+03-15 14:29:17.810 D/VRI[goster]@cac3546( 1328): WindowStopped on com.example.kutuphane/com.example.kutuphane.goster set to true
+03-15 14:29:17.814 I/SurfaceFlinger( 1567): RequestedLayer [com.example.kutuphane/com.example.kutuphane.goster$_1328#34139] hidden!! flag  from(0) --> to(1)
+03-15 14:29:17.814 I/SurfaceFlinger( 1567): destroyed Transition Root: ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34151
+03-15 14:29:17.814 I/SurfaceFlinger( 1567): destroyed DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152
+03-15 14:29:17.815 I/Layer   ( 1567): id=34151 Destroyed Transition Root: ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621}#34151
+03-15 14:29:17.815 I/Layer   ( 1567): id=34152 Destroyed DimTransitionLayer for Surface(name=ActivityRecord{67460585 u0 com.example.kutuphane/.MainActivity t621})/@0xb192589#34152
+03-15 14:29:17.816 E/WindowManager(12320): win=Window{605262f u0 com.example.kutuphane/com.example.kutuphane.goster} destroySurfaces: appStopped=true cleanupOnResume=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.ActivityRecord.destroySurfaces:25 com.android.server.wm.ActivityRecord.activityStopped:192 com.android.server.wm.ActivityClientController.activityStopped:97 android.app.IActivityClientController$Stub.onTransact:740 com.android.server.wm.ActivityClientController.onTransact:1 android.os.Binder.execTransactInternal:1462 android.os.Binder.execTransact:1401 
+03-15 14:29:17.816 D/SGM:FgCheckThread(12320): getForegroundApp(), foregroundPkgName=com.example.kutuphane
+03-15 14:29:17.817 D/BackgroundInstallControlService(12320): Package event received: 0
+03-15 14:29:17.819 D/SGM:FgCheckThread(12320): pkgName: com.example.kutuphane is in foreground
+03-15 14:29:17.825 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{com.example.kutuphane/com.example.kutuphane.goster$_1328#34139} no children}] reparent to OffscreenRoot
+03-15 14:29:17.826 I/SurfaceFlinger( 1567): [LayerHierarchy{RequestedLayerState{com.example.kutuphane/com.example.kutuphane.goster$_1328#34139} no children}] RelativeParent to null
+03-15 14:29:17.826 I/SurfaceFlinger( 1567): onHandleDestroyed: layerId=34139, name=com.example.kutuphane/com.example.kutuphane.goster$_1328#34139
+03-15 14:29:17.826 I/SurfaceFlinger( 1567): id=34139 Removed com.example.kutuphane/com.example.kutuphane.goster$_1328#34139 (209)
+03-15 14:29:17.837 I/SurfaceFlinger( 1567): destroyed com.example.kutuphane/com.example.kutuphane.goster$_1328#34139
+03-15 14:29:17.838 I/Layer   ( 1567): id=34139 Destroyed com.example.kutuphane/com.example.kutuphane.goster$_1328#34139
+03-15 14:29:17.853 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.MainActivity$_1328#34148(seamlessTransition:0)
+03-15 14:29:17.853 D/SGM:GameManager(12320): identifyForegroundApp. com.example.kutuphane, mCurrentUserId: 0, callerUserId: 0
+03-15 14:29:17.853 D/SGM:SemGameManager(12320): isForegroundGame(), ret=false
+03-15 14:29:17.878 I/hwcomposer( 1501): [HWC] (0)fire a callback of refresh to SF[4]  
+03-15 14:29:17.879 I/InputMethodService(30070): removeImeSurface
+03-15 14:29:17.879 I/InputMethodService(30070): cancelImeSurfaceRemoval: removeCallbacks
+03-15 14:29:17.924 I/mtkpower_client(12099): perf_lock_rel, hdl:14128, pid: 12099, tid:2533
+03-15 14:29:17.924 I/libPowerHal( 1520): [perfLockRel] hdl:14128, idx:0
+03-15 14:29:17.924 I/mtkpower_client(12099): perf_lock_rel, hdl:14138, pid: 12099, tid:2533
+03-15 14:29:17.924 I/libPowerHal( 1520): [PD] vendor.samsung. update cmd:300c000 param:0, pr:6
+03-15 14:29:17.925 I/libPowerHal( 1520): [perfLockRel] Done for hdl : 14128
+03-15 14:29:17.926 I/mtkpower_client(12099): perf_lock_rel, hdl:14130, pid: 12099, tid:2533
+03-15 14:29:17.926 I/libPowerHal( 1520): [perfLockRel] hdl:14138, idx:1
+03-15 14:29:17.926 I/libPowerHal( 1520): [set_cpuidle] enable:1, fd:17, scn:0xb4000078fe804178
+03-15 14:29:17.926 I/libPowerHal( 1520): [PD] vendor.samsung. update cmd:1c3c100 param:1 pr:6
+03-15 14:29:17.926 I/libPowerHal( 1520): [perfLockRel] Done for hdl : 14138
+03-15 14:29:17.927 I/mtkpower_client(12099): perf_lock_rel, hdl:14139, pid: 12099, tid:2533
+03-15 14:29:17.927 I/libPowerHal( 1520): [perfLockRel] hdl:14130, idx:2
+03-15 14:29:17.927 I/libPowerHal( 1520): [PD] vendor.samsung. update cmd:400000 param:-1 pr:6
+03-15 14:29:17.928 I/libPowerHal( 1520): [recordCPUFreqInfo] set cluster[0] min(-1): -1 max(-1): -1 cluster[1] min(-1): 0 max(-1): 0
+03-15 14:29:17.928 I/libPowerHal( 1520): [perfLockRel] Done for hdl : 14130
+03-15 14:29:17.928 I/libPowerHal( 1520): [perfLockRel] hdl:14139, idx:3
+03-15 14:29:17.929 I/HYPER-HAL(12099): [RequestManager.cpp]releaseLocked(): Released ID : 76316869
+03-15 14:29:17.929 I/libPowerHal( 1520): [PD] vendor.samsung. update cmd:1000000 param:-1 pr:6
+03-15 14:29:17.930 I/libPowerHal( 1520): [perfLockRel] Done for hdl : 14139
+03-15 14:29:17.955 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.MainActivity$_1328#34148(seamlessTransition:0)
+03-15 14:29:18.151 E/thermal_core( 1673): find_tz_idx_by_name:"Failed to find thermal zone index of ap_ntc\n"
+03-15 14:29:18.151 E/thermal_core( 1673): find_tz_idx_by_name:"Failed to find thermal zone index of mtk-master-charger\n"
+03-15 14:29:18.169 W/DeviceStorageMonitorService(12320): updateBroadcasts(/data) oldLevel:0, newLevel:0, seq:1
+03-15 14:29:18.172 D/DeviceStorageMonitorService(12320): Available File Node Number is [12579524]
+03-15 14:29:18.172 W/DeviceStorageMonitorService(12320): updateBroadcasts_filenode(/data) fn_oldLevel:0, fn_newLevel:0, seq:1
+03-15 14:29:18.428 D/SatelliteController(12732): isInCarrierRoamingNbIotNtn: satellite is disabled
+03-15 14:29:18.644 I/NSLocationMonitor(12320): getGPSUsingApps() called
+03-15 14:29:18.646 I/NSLocationManager_FLP(13876): getGPSUsingApps, No change
+03-15 14:29:18.663 D/FreecessHandler(12320): freeze com.instagram.android(10304) result : 7
+03-15 14:29:18.727 I/HYPER-HAL(12099): [RequestManager.cpp]releaseLocked(): Released ID : 100898130
+03-15 14:29:18.746 I/NSLocationMonitor(12320): getGPSUsingApps() called
+03-15 14:29:18.747 I/NSLocationManager_FLP(13876): getGPSUsingApps, No change
+03-15 14:29:18.761 D/FreecessHandler(12320): freeze com.example.kutuphane(10286) result : 12
+03-15 14:29:19.122 I/SDHMS:LOAD(14190): type: LoadsFreqs, value: 0:0:2:1088000:2200000:0:818000:2000000:0:50:596:0
+03-15 14:29:19.133 W/AudioALSACaptureDataProviderNormal(12088): readThread, latency_in_s,0.000002,0.022281,0.000135, totalTime 0.022418 > logTimeout 0.022000 TIMEOUT!!
+03-15 14:29:19.336 D/SemWifiApIntentHandler(12320): rcvd:android.intent.action.BATTERY_LEVEL_CHANGED
+03-15 14:29:19.341 I/ActivityManager(12320): Changes in 10216 19 to 11, 0 to 128
+03-15 14:29:19.344 V/APM_AudioPolicyManager(12081): setAppState(portId:159, state:1)
+03-15 14:29:19.353 I/ActivityManager(12320): Changes in 10216 11 to 19, 128 to 0
+03-15 14:29:19.355 V/APM_AudioPolicyManager(12081): setAppState(portId:159, state:1)
+03-15 14:29:19.707 D/SatelliteController(12732): isInCarrierRoamingNbIotNtn: satellite is disabled
+03-15 14:29:20.247 E/TaskPersister(12320): File error accessing recents directory (directory doesn't exist?).
+03-15 14:29:20.335 I/Pageboost(12320): Launcher App Execution
+03-15 14:29:20.336 E/Pageboost(12320): ioinfo read failed
+03-15 14:29:20.345 D/SemWifiUsabilityStatsMonitor(12320): onWifiUsabilityStats - seqNum 1694, isSameBssidAndFreq true
+03-15 14:29:20.348 I/SemWifiLinkQualityMonitor(12320): Link stat: 0 / 0 / 1,00 (13) / 433 / -45.0 || 100.0 : 433,00 / 0.5 : 1,00 / 0.55 : 0,30 / G (G) || d2dfd1b45640: 0,121 / 65,934 / D || N N / 0 0 / Y 2.0 / Y X 0 / 118918644 0 || Invalid
+03-15 14:29:20.356 I/VSyncReactor( 1567): Current= 90, Period= 90, hwcPeriod= 90
+03-15 14:29:20.379 I/BufferQueueProducer( 1567): [StatusBar$_12757#28514](this:0xb400006f8846be38,id:-1,api:0,p:-1,c:1567) queueBuffer: fps=0.33 dur=3030.39 max=3030.39 min=3030.39
+03-15 14:29:20.386 I/hwcomposer( 1501): [HWCDisplay] (0 updateFps():4131), (type:1, mode:2) fps:17.167208,dur:3145.53,max:2499.12,min:6.98  
+03-15 14:29:20.388 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.MainActivity$_1328#34148(seamlessTransition:0)
+03-15 14:29:20.417 I/native  (29931): I0000 00:00:1773574160.416729   29954 soda_async_impl.cc:1424] Current audio timestamp: 1773574160246201
+03-15 14:29:20.471 I/hwcomposer( 1501): [HWC] (0)fire a callback of refresh to SF[4]  
+03-15 14:29:20.486 I/BufferQueueProducer( 1567): [FramebufferSurface](this:0xb400006faf4f0370,id:-1,api:1,p:1567,c:1567) queueBuffer: fps=13.36 dur=3143.67 max=2599.73 min=6.91
+03-15 14:29:20.489 I/SurfaceFlinger( 1567): Capture layer list: 	 com.example.kutuphane/com.example.kutuphane.MainActivity$_1328#34148(seamlessTransition:0)
+03-15 14:29:20.715 W/ProxyAndroidLoggerBackend(29931): Too many Flogger logs received before configuration. Dropping old logs.
+03-15 14:29:20.743 D/IpClient/wlan0(12892): addressUpdated: fd00::a0f6:c6ff:fe62:b331/64 on ifindex 53 flags 0x00000100 scope 0
+03-15 14:29:20.744 D/IpClient/wlan0(12892): addressUpdated: fd00::1f48:ef84:bcb3:b7e1/64 on ifindex 53 flags 0x00000001 scope 0
+03-15 14:29:20.745 W/AlarmManager(12892): Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@5c118d3
+03-15 14:29:20.750 I/EPDG -- SIM0 [EpdgIntfCont](12923): sendInterfaceMessage, not mobile, ignore
+03-15 14:29:20.751 I/EPDG -- SIM1 [EpdgIntfCont](12923): sendInterfaceMessage, not mobile, ignore
+03-15 14:29:20.751 I/EPDG -- SIM1 [EpdgIntfCont](12923): sendInterfaceMessage, not mobile, ignore
+03-15 14:29:20.751 I/EPDG -- SIM0 [EpdgIntfCont](12923): sendInterfaceMessage, not mobile, ignore
+03-15 14:29:20.986 D/SatelliteController(12732): isInCarrierRoamingNbIotNtn: satellite is disabled
+03-15 14:29:21.152 E/thermal_core( 1673): find_tz_idx_by_name:"Failed to find thermal zone index of ap_ntc\n"
+03-15 14:29:21.152 E/thermal_core( 1673): find_tz_idx_by_name:"Failed to find thermal zone index of mtk-master-charger\n"
+03-15 14:29:21.293 W/AudioALSACaptureDataProviderNormal(12088): readThread, latency_in_s,0.000002,0.022223,0.000137, totalTime 0.022361 > logTimeout 0.022000 TIMEOUT!!
+03-15 14:29:21.414 W/AudioALSACaptureDataProviderNormal(12088): readThread, latency_in_s,0.000002,0.022402,0.000137, totalTime 0.022542 > logTimeout 0.022000 TIMEOUT!!
+03-15 14:29:21.541 I/wpa_supplicant(12721): Heartbeat 885
+03-15 14:29:21.746 D/io_stats(  582): !@   8,32 r 7569079 164652596 w 5383292 70478600 d 599074 219338816 f 475567 529285 iot 2438368 0 th 0 0 0 pt 0 inp 0 0 118920.043
+03-15 14:29:21.746 D/io_stats(  582): !@ Write_top(KB): kworker/u32:4:/(31822) 208 kworker/u32:6:/(20631) 24 jbd2/sdc3-8:/(556) 12
+03-15 14:29:21.978 D/ActivityManager(12320): freezing 29552 com.samsung.android.dqagent

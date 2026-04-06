@@ -1,0 +1,407 @@
+--------- beginning of crash
+03-12 18:52:41.798  1501  1501 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-12 18:52:41.798  1501  1501 I libpq_sec: mtk-brm-change-id:none
+03-12 18:52:41.798  1501  1501 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-12 18:52:42.241  1502  1502 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-12 18:52:42.242  1502  1502 I libpq_sec: mtk-brm-change-id:none
+03-12 18:52:42.242  1502  1502 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-12 18:52:42.287  1567  1619 I meow_lib: mtk-brm-commit-id:922633a48489a1b0cd95425cfd1e2fed95d7810c
+03-12 18:52:42.287  1567  1619 I meow_lib: mtk-brm-change-id:Iccf7de903d9a0624d30f9fcbba568f1ab5ad163e
+03-12 18:52:42.287  1567  1619 I meow_lib: mtk-brm-merge-id:none
+03-12 18:52:42.322  1567  1619 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-12 18:52:42.323  1567  1619 I libpq_sec: mtk-brm-change-id:none
+03-12 18:52:42.323  1567  1619 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-12 18:52:42.323  1567  1619 I libged  : mtk-brm-commit-id:a67f513ab621b7016b5d40f68121dadd9d33070c
+03-12 18:52:42.323  1567  1619 I libged  : mtk-brm-change-id:I1b149db109479aa820f7011cb0d955fc74f73de6
+03-12 18:52:42.323  1567  1619 I libged  : mtk-brm-merge-id:none
+03-12 18:52:42.623  1673  1673 I thermal_core: mtk-brm-commit-id:855e5a06ebf80d92519b1953a198d035c7591489
+03-12 18:52:42.624  1673  1673 I thermal_core: mtk-brm-change-id:Ib8db633b7669bb9942420bf18c9d4bde1f2a62e6
+03-12 18:52:42.624  1673  1673 I thermal_core: mtk-brm-merge-id:none
+03-12 18:52:42.830  1720  1720 I emdlogger: mtk-brm-commit-id:afccae5ba9c3c95e88ce474d5b5ed880dfa78a6a
+03-12 18:52:42.831  1720  1720 I emdlogger: mtk-brm-change-id:I28795e6bf614f6607482ea606f62aeab4a283858
+03-12 18:52:42.831  1720  1720 I emdlogger: mtk-brm-merge-id:none
+03-12 18:52:43.053  1752  1752 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-12 18:52:43.054  1752  1752 I libpq_sec: mtk-brm-change-id:none
+03-12 18:52:43.054  1752  1752 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-12 18:52:43.073  1752  1752 I libaal_sec: mtk-brm-commit-id:ee3cbd8e51cd2c4281ebb8ca418849a8d1881433
+03-12 18:52:43.073  1752  1752 I libaal_sec: mtk-brm-change-id:Ifc4b37ff1ca2d1b45034d745e4864deb7334a8c2
+03-12 18:52:43.073  1752  1752 I libaal_sec: mtk-brm-merge-id:none
+03-12 18:52:43.403  1524  1524 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-12 18:52:43.403  1524  1524 I libpq_sec: mtk-brm-change-id:none
+03-12 18:52:43.403  1524  1524 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-12 18:52:44.539  1484  1484 I meow_lib: mtk-brm-commit-id:922633a48489a1b0cd95425cfd1e2fed95d7810c
+03-12 18:52:44.539  1484  1484 I meow_lib: mtk-brm-change-id:Iccf7de903d9a0624d30f9fcbba568f1ab5ad163e
+03-12 18:52:44.539  1484  1484 I meow_lib: mtk-brm-merge-id:none
+03-12 18:52:44.554  1484  1484 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-12 18:52:44.554  1484  1484 I libpq_sec: mtk-brm-change-id:none
+03-12 18:52:44.554  1484  1484 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-12 18:52:52.334  1485  1485 I meow_lib: mtk-brm-commit-id:922633a48489a1b0cd95425cfd1e2fed95d7810c
+03-12 18:52:52.334  1485  1485 I meow_lib: mtk-brm-change-id:Iccf7de903d9a0624d30f9fcbba568f1ab5ad163e
+03-12 18:52:52.334  1485  1485 I meow_lib: mtk-brm-merge-id:none
+03-12 18:52:52.429  1485  1485 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-12 18:52:52.429  1485  1485 I libpq_sec: mtk-brm-change-id:none
+03-12 18:52:52.429  1485  1485 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-12 19:03:27.053  1541  1541 I liboemcrypto: mtk-brm-commit-id:5428ac87135bbb5da00fa48e4a3c206fd780887e
+03-12 19:03:27.053  1541  1541 I liboemcrypto: mtk-brm-change-id:I6ebecbfe18f3d714a80f68a99db0799f08111a0a
+03-12 19:03:27.053  1541  1541 I liboemcrypto: mtk-brm-merge-id:none
+03-13 00:32:04.867 30894 30896 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 00:32:04.867 30894 30896 I libpq_sec: mtk-brm-change-id:none
+03-13 00:32:04.867 30894 30896 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 01:05:22.163 31451 31453 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 01:05:22.164 31451 31453 I libpq_sec: mtk-brm-change-id:none
+03-13 01:05:22.164 31451 31453 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 01:47:08.960 31790 31792 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 01:47:08.960 31790 31792 I libpq_sec: mtk-brm-change-id:none
+03-13 01:47:08.960 31790 31792 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 03:02:13.812 32115 32118 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 03:02:13.812 32115 32118 I libpq_sec: mtk-brm-change-id:none
+03-13 03:02:13.812 32115 32118 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 03:32:16.379 32650 32652 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 03:32:16.379 32650 32652 I libpq_sec: mtk-brm-change-id:none
+03-13 03:32:16.379 32650 32652 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 04:02:26.503  3714  3717 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 04:02:26.503  3714  3717 I libpq_sec: mtk-brm-change-id:none
+03-13 04:02:26.504  3714  3717 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 08:07:47.775  1545  6101 F libc    : Fatal signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x767b8c8028 in tid 6101 (binder:1545_5), pid 1545 (audioserver)
+03-13 08:07:49.112 29743 29743 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-13 08:07:49.112 29743 29743 F DEBUG   : Build fingerprint: 'samsung/a15nstur/a15:16/BP2A.250605.031.A3/A155FXXS9DZA2:user/release-keys'
+03-13 08:07:49.112 29743 29743 F DEBUG   : Revision: '5'
+03-13 08:07:49.112 29743 29743 F DEBUG   : ABI: 'arm64'
+03-13 08:07:49.112 29743 29743 F DEBUG   : Processor: '7'
+03-13 08:07:49.112 29743 29743 F DEBUG   : Timestamp: 2026-03-13 08:07:47.988014361+0300
+03-13 08:07:49.112 29743 29743 F DEBUG   : Process uptime: 0s
+03-13 08:07:49.112 29743 29743 F DEBUG   : Cmdline: /system/bin/audioserver
+03-13 08:07:49.112 29743 29743 F DEBUG   : pid: 1545, tid: 6101, name: binder:1545_5  >>> /system/bin/audioserver <<<
+03-13 08:07:49.112 29743 29743 F DEBUG   : uid: 1041
+03-13 08:07:49.112 29743 29743 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+03-13 08:07:49.112 29743 29743 F DEBUG   : signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x000000767b8c8028
+03-13 08:07:49.112 29743 29743 F DEBUG   :     x0  bf2d51af2cdcf7a8  x1  00000059005312e9  x2  0000007675ffed70  x3  0000007700b66000
+03-13 08:07:49.112 29743 29743 F DEBUG   :     x4  0000000000000004  x5  0000000000000000  x6  64726a6268747064  x7  7f7f7f7f7f7f7f7f
+03-13 08:07:49.112 29743 29743 F DEBUG   :     x8  00000000002c8028  x9  000000767b600000  x10 0000007719709be0  x11 0000007719709be0
+03-13 08:07:49.112 29743 29743 F DEBUG   :     x12 0000000003e2b3e0  x13 0000000003e2b3d0  x14 0000000066642a85  x15 b40000767b274d20
+03-13 08:07:49.112 29743 29743 F DEBUG   :     x16 00000077197ef038  x17 000000771945e1a0  x18 0000000000041454  x19 b40000767b290000
+03-13 08:07:49.112 29743 29743 F DEBUG   :     x20 01ae291513c880fc  x21 b40000767983c800  x22 0000000000000000  x23 0000007700bdbf18
+03-13 08:07:49.112 29743 29743 F DEBUG   :     x24 00000077197edfa8  x25 00000077197eddb8  x26 0000007675fffe40  x27 00000077197ed9f0
+03-13 08:07:49.112 29743 29743 F DEBUG   :     x28 0000007675ffee70  x29 0000007675ffedb0
+03-13 08:07:49.112 29743 29743 F DEBUG   :     lr  00000077197a35ec  sp  0000007675ffed50  pc  000000771945e1b8  pst 0000000020001000
+03-13 08:07:49.112 29743 29743 F DEBUG   : 15 total frames
+03-13 08:07:49.112 29743 29743 F DEBUG   : backtrace:
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #00 pc 00000000000041b8  /apex/com.android.runtime/lib64/bionic/libdl.so (__cfi_slowpath+24) (BuildId: 62191add85d208fb633566dc8a024a05)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #01 pc 00000000000c25e8  /system/lib64/libaudiopolicymanagerdefault.so (android::AudioPolicyManager::resetInputDevice(int, int*)+1224) (BuildId: ec990c6abec2e64fd0c57bfffd29b7fc)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #02 pc 00000000000c1bac  /system/lib64/libaudiopolicymanagerdefault.so (android::AudioPolicyManager::stopInput(int)+1724) (BuildId: ec990c6abec2e64fd0c57bfffd29b7fc)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #03 pc 000000000028ce48  /system/bin/audioserver (android::AudioPolicyService::stopInput(int)+600) (BuildId: 8559b6309dff9a4cdb95b4be86b4a69f)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #04 pc 0000000000095154  /system/lib64/libaudioclient.so (android::AudioSystem::stopInput(int) (.cfi)+132) (BuildId: daf43441830fab48ba222003ea2cf9ec)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #05 pc 0000000000256cdc  /system/bin/audioserver (android::RecordTrack::stop()+780) (BuildId: 8559b6309dff9a4cdb95b4be86b4a69f)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #06 pc 00000000002545b0  /system/bin/audioserver (android::RecordHandle::stop()+704) (BuildId: 8559b6309dff9a4cdb95b4be86b4a69f)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #07 pc 0000000000044500  /system/lib64/audioflinger-aidl-cpp.so (android::media::BnAudioRecord::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+1152) (BuildId: 0f8fa52652da31a724dacea7378c7f39)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #08 pc 0000000000048afc  /system/lib64/libbinder.so (android::IPCThreadState::executeCommand(int)+764) (BuildId: 3ea4c828d3239af90bef0c42d3a43738)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #09 pc 00000000000515fc  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+284) (BuildId: 3ea4c828d3239af90bef0c42d3a43738)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #10 pc 0000000000081d34  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+116) (BuildId: 3ea4c828d3239af90bef0c42d3a43738)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #11 pc 00000000000192e8  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+248) (BuildId: 688c1a689e464d4e0c83f8957a0e4112)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #12 pc 000000000001ba14  /system/lib64/libutils.so (libutil_thread_trampoline(void*) (.__uniq.226528677032898775202282855395389835431)+20) (BuildId: 688c1a689e464d4e0c83f8957a0e4112)
+03-13 08:07:49.112 29743 29743 F DEBUG   :       #13 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+03-13 08:07:49.113 29743 29743 F DEBUG   :       #14 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+03-13 15:59:17.877 15902 15902 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 15:59:17.878 15902 15902 I libpq_sec: mtk-brm-change-id:none
+03-13 15:59:17.878 15902 15902 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 22:35:06.032  6390  6394 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 22:35:06.032  6390  6394 I libpq_sec: mtk-brm-change-id:none
+03-13 22:35:06.032  6390  6394 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 22:35:29.537  7243  7246 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 22:35:29.537  7243  7246 I libpq_sec: mtk-brm-change-id:none
+03-13 22:35:29.537  7243  7246 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 22:35:56.217  7895  7898 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 22:35:56.218  7895  7898 I libpq_sec: mtk-brm-change-id:none
+03-13 22:35:56.218  7895  7898 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 22:38:04.376  9147  9149 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 22:38:04.377  9147  9149 I libpq_sec: mtk-brm-change-id:none
+03-13 22:38:04.377  9147  9149 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: FATAL EXCEPTION: main
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: Process: com.example.kutuphane, PID: 9803
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.kutuphane/com.example.kutuphane.kitapEklee}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2479)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:2015)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6169)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:676)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6126)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:663)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6629)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6596)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at com.example.kutuphane.goster$1.onClick(goster.java:29)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.view.View.performClick(View.java:8508)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.widget.TextView.performClick(TextView.java:18631)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8485)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:33213)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+03-13 22:39:18.120  9803  9803 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+03-13 22:39:23.540 10428 10428 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 22:39:23.540 10428 10428 I libpq_sec: mtk-brm-change-id:none
+03-13 22:39:23.540 10428 10428 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: FATAL EXCEPTION: main
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: Process: com.example.kutuphane, PID: 10546
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.kutuphane/com.example.kutuphane.kitapListe}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2479)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:2015)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6169)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:676)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6126)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:663)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6629)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6596)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at com.example.kutuphane.goster$2.onClick(goster.java:40)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.view.View.performClick(View.java:8508)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.widget.TextView.performClick(TextView.java:18631)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8485)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:33213)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+03-13 22:44:51.412 10546 10546 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: FATAL EXCEPTION: main
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: Process: com.example.kutuphane, PID: 15867
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.kutuphane/com.example.kutuphane.kitapekle}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2479)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:2015)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6169)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:676)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6126)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:663)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6629)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6596)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at com.example.kutuphane.goster$1.onClick(goster.java:29)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.view.View.performClick(View.java:8508)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.widget.TextView.performClick(TextView.java:18631)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8485)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:33213)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+03-13 23:08:38.103 15867 15867 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: FATAL EXCEPTION: main
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: Process: com.example.kutuphane, PID: 16438
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.kutuphane/com.example.kutuphane.kitapListe}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2479)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:2015)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6169)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:676)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6126)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:663)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6629)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6596)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at com.example.kutuphane.goster$2.onClick(goster.java:40)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.view.View.performClick(View.java:8508)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.widget.TextView.performClick(TextView.java:18631)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8485)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:33213)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+03-13 23:08:49.356 16438 16438 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: FATAL EXCEPTION: main
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: Process: com.example.kutuphane, PID: 16693
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.kutuphane/com.example.kutuphane.hakkinda}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2479)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:2015)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6169)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:676)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6126)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:663)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6629)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6596)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at com.example.kutuphane.goster$3.onClick(goster.java:51)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.view.View.performClick(View.java:8508)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.widget.TextView.performClick(TextView.java:18631)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8485)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:33213)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+03-13 23:09:13.869 16693 16693 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: FATAL EXCEPTION: main
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: Process: com.example.kutuphane, PID: 17372
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.kutuphane/com.example.kutuphane.kitapListe}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2479)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:2015)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6169)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:676)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6126)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:663)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6629)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6596)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at com.example.kutuphane.goster$2.onClick(goster.java:40)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.view.View.performClick(View.java:8508)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.widget.TextView.performClick(TextView.java:18631)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8485)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:33213)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+03-13 23:11:07.476 17372 17372 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+03-13 23:22:12.104 20474 20474 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 23:22:12.104 20474 20474 I libpq_sec: mtk-brm-change-id:none
+03-13 23:22:12.104 20474 20474 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-13 23:22:37.191 20929 20932 I libpq_sec: mtk-brm-commit-id:d400f8d64faf82f68dbac6134ab721cb011bcf66
+03-13 23:22:37.191 20929 20932 I libpq_sec: mtk-brm-change-id:none
+03-13 23:22:37.191 20929 20932 I libpq_sec: mtk-brm-merge-id:f79ec36  c3f492f
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: FATAL EXCEPTION: main
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: Process: com.example.kutuphane, PID: 5171
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.kutuphane/com.example.kutuphane.istatistik}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2479)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:2015)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6169)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:676)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6126)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:663)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6629)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6596)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at com.example.kutuphane.goster.lambda$onCreate$0$com-example-kutuphane-goster(goster.java:43)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at com.example.kutuphane.goster$$ExternalSyntheticLambda0.onClick(Unknown Source:2)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.view.View.performClick(View.java:8508)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.widget.TextView.performClick(TextView.java:18631)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8485)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:33213)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+03-14 00:14:59.787  5171  5171 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: FATAL EXCEPTION: main
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: Process: com.example.kutuphane, PID: 5846
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.kutuphane/com.example.kutuphane.istatistik}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2479)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:2015)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6169)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:676)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6126)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:663)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6629)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6596)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at com.example.kutuphane.goster.lambda$onCreate$0$com-example-kutuphane-goster(goster.java:43)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at com.example.kutuphane.goster$$ExternalSyntheticLambda0.onClick(Unknown Source:2)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.view.View.performClick(View.java:8508)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.widget.TextView.performClick(TextView.java:18631)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8485)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:33213)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+03-14 00:17:09.531  5846  5846 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: FATAL EXCEPTION: main
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: Process: com.example.kutuphane, PID: 6877
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.kutuphane/com.example.kutuphane.istatistik}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2479)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:2015)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6169)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:676)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6126)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:663)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6629)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6596)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at com.example.kutuphane.goster.lambda$onCreate$0$com-example-kutuphane-goster(goster.java:43)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at com.example.kutuphane.goster$$ExternalSyntheticLambda0.onClick(Unknown Source:2)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.view.View.performClick(View.java:8508)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.widget.TextView.performClick(TextView.java:18631)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8485)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:33213)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+03-14 00:17:34.578  6877  6877 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: FATAL EXCEPTION: main
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: Process: com.example.kutuphane, PID: 8442
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.kutuphane/com.example.kutuphane.istatistik}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2479)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:2015)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6169)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:676)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6126)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:663)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6629)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6596)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at com.example.kutuphane.goster.lambda$onCreate$0$com-example-kutuphane-goster(goster.java:43)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at com.example.kutuphane.goster$$ExternalSyntheticLambda0.onClick(Unknown Source:2)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.view.View.performClick(View.java:8508)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.widget.TextView.performClick(TextView.java:18631)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8485)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:33213)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+03-14 00:28:40.085  8442  8442 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: FATAL EXCEPTION: main
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: Process: com.example.kutuphane, PID: 8807
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.kutuphane/com.example.kutuphane.istatistik}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared <intent-filter>?
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2479)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:2015)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6169)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:676)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.app.Activity.startActivityForResult(Activity.java:6126)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:663)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6629)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.app.Activity.startActivity(Activity.java:6596)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at com.example.kutuphane.goster.lambda$onCreate$0$com-example-kutuphane-goster(goster.java:43)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at com.example.kutuphane.goster$$ExternalSyntheticLambda0.onClick(Unknown Source:2)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.view.View.performClick(View.java:8508)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.widget.TextView.performClick(TextView.java:18631)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.view.View.performClickInternal(View.java:8485)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.view.View$PerformClick.run(View.java:33213)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+03-14 00:29:28.251  8807  8807 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)

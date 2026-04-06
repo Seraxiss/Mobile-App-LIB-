@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="?android:attr/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kitap Kaldır"
+        android:textSize="28sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/txtSilinecekKitap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_custom_input"
+        android:hint="Silinecek Kitabın Adı"
+        android:layout_marginBottom="25dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSil"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Kitabı Kalıcı Olarak Sil"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_custom_button_red"
+        android:layout_marginBottom="15dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnKaldirmadanDon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_custom_button"
+        android:text="İptal ve Geri Dön"/>
+
+</LinearLayout>

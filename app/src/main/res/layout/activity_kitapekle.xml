@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/btnGeriOk"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintTop_toTopOf="@id/baslik"
+        app:layout_constraintBottom_toBottomOf="@id/baslik"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/baslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yeni Kitap Ekle"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="?android:attr/textColorPrimary"
+        android:layout_marginStart="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnGeriOk"/>
+        
+    <EditText
+        android:id="@+id/kitapAdi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Kitap Adı"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_custom_input"
+        app:layout_constraintTop_toBottomOf="@id/baslik"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/yazarAdi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Yazar Adı"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_custom_input"
+        app:layout_constraintTop_toBottomOf="@id/kitapAdi"
+        app:layout_constraintStart_toStartOf="@id/kitapAdi"
+        app:layout_constraintEnd_toEndOf="@id/kitapAdi"/>
+
+    <EditText
+        android:id="@+id/sayfaSayisi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Sayfa Sayısı"
+        android:inputType="number"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_custom_input"
+        app:layout_constraintTop_toBottomOf="@id/yazarAdi"
+        app:layout_constraintStart_toStartOf="@id/yazarAdi"
+        app:layout_constraintEnd_toEndOf="@id/yazarAdi"/>
+
+    <Spinner
+        android:id="@+id/spinnerKategori"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_custom_input"
+        app:layout_constraintTop_toBottomOf="@id/sayfaSayisi"
+        app:layout_constraintStart_toStartOf="@id/sayfaSayisi"
+        app:layout_constraintEnd_toEndOf="@id/sayfaSayisi"/>
+
+    <LinearLayout
+        android:id="@+id/layoutButtons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/spinnerKategori"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnScan"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Barkod Tara"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_custom_button"
+            android:layout_marginEnd="5dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSelectImage"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Kapak Ekle"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_custom_button"
+            android:layout_marginStart="5dp"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFetchCover"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="🌐 İnternetten Kapak Al"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_custom_button"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/layoutButtons"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imgBookCoverPreview"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:background="#EEEEEE"
+        app:layout_constraintTop_toBottomOf="@id/btnFetchCover"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnKitapKaydet"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:text="Kitabı Kaydet"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_custom_button"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/imgBookCoverPreview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

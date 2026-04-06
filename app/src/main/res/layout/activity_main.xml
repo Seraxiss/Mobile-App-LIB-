@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center"
+    android:background="?android:attr/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Kütüphane Sistemi"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="?android:attr/textColorPrimary"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtGirisAd"
+        android:hint="Kullanıcı Adı"
+        android:background="@drawable/bg_custom_input"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtGirisSifre"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_custom_input"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGirisYap"
+        android:text="Giriş Yap"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_custom_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/txtYeniUye"
+        android:text="Hesabın yok mu? Yeni Üye Kayıt"
+        android:textColor="@color/link_color"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
